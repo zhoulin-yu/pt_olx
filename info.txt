@@ -1,0 +1,15 @@
+https://www.olx.pt/d/anuncio/vende-se-golf-1999-IDGJ6nT.html#d447c7e096
+
+https://www.olx.pt/d/anuncio/ford-focus-1800-cc-de-2003-usado-IDGEAn6.html#f71c5ae2ec
+
+
+document.querySelector("#root > div.css-50cyfj > div > div > div.css-pzstfv > a")
+
+<a href="/" type="button" variant="base" class="css-1equ2fo-BaseStyles">Ir para a página principal</a>
+
+
+
+css-thjz9r // loading logo X 
+css-5hzoub // loading logo O  
+
+swiper-container

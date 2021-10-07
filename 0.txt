@@ -1,0 +1,28 @@
+ #ad -
+ <link data-react-helmet="true" 
+ rel="alternate" 
+ href="ios-app://562916910/app-olxua/https://www.olx.pt/anuncio/vende-se-golf-1999-IDGJ6nT.html"/>
+ <link data-react-helmet="true" 
+ rel="alternate" 
+ href="android-app://com.fixeads.olxportugal/https://www.olx.pt/anuncio/vende-se-golf-1999-IDGJ6nT.html"/>
+ <link data-react-helmet="true" 
+ id="ssr_canonical" 
+ rel="canonical" 
+ href="https://www.olx.pt/d/anuncio/vende-se-golf-1999-IDGJ6nT.html"/>
+
+
+#normal
+ <link data-react-helmet="true" 
+ rel="alternate" 
+ media="only screen and (max-width: 640px)" 
+ href="https://m.olx.pt/d/anuncio/ford-fiesta-pouqussimos-kilometros-IDGHT10.html"/>
+ <link data-react-helmet="true" 
+ rel="alternate" 
+ href="ios-app://562916910/app-olxua/https://www.olx.pt/anuncio/ford-fiesta-pouqussimos-kilometros-IDGHT10.html"/>
+ <link data-react-helmet="true" 
+ rel="alternate" 
+ href="android-app://com.fixeads.olxportugal/https://www.olx.pt/anuncio/ford-fiesta-pouqussimos-kilometros-IDGHT10.html"/>
+ <link data-react-helmet="true" 
+ id="ssr_canonical" 
+ rel="canonical" 
+ href="https://www.olx.pt/d/anuncio/ford-fiesta-pouqussimos-kilometros-IDGHT10.html"/>

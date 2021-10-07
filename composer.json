@@ -1,0 +1,14 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exceptions\\": "Exceptions/"
+        },
+        "files": [
+            "debug.class.php"
+        ]
+    }
+
+}
