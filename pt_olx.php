@@ -1,4 +1,7 @@
 <?php
+
+use Exception;
+
 require 'vendor/autoload.php';
 
 function writelog($str)
@@ -8,7 +11,88 @@ function writelog($str)
     fclose($open);
 }
 
+function create_token()
+{
+    /**
+     * Generation d'un UUID aléatoire
+     */
+    $data['device_id'] = sprintf(
+        '%04x%04x-%04x-%04x-%04x-%04x%04x%04x',
+        mt_rand(0, 0xffff),
+        mt_rand(0, 0xffff),
+        mt_rand(0, 0xffff),
+        mt_rand(0, 0x0fff) | 0x4000,
+        mt_rand(0, 0x3fff) | 0x8000,
+        mt_rand(0, 0xffff),
+        mt_rand(0, 0xffff),
+        mt_rand(0, 0xffff)
+    );
+    $device = base64_encode(json_encode(['id' => $data['device_id']]));
+    $data['device_token'] = "{$device}." . hash_hmac('sha1', $device, 'device');
+    $data['grant_type'] = 'device';
+    $data['scope'] = 'i2 read write v2';
+    $data['client_id'] = '100015';
+    $data['client_secret'] = '40305e47de43919714d2583fc9320a9e8f6a8001f30cd288396e7ced6d666540';
 
+    $ch = curl_init();
+    curl_setopt_array(
+        $ch,
+        [
+            CURLOPT_URL => "https://www.olx.pt/api/open/oauth/token/",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => http_build_query($data)
+        ]
+    );
+    $tokenContent = curl_exec($ch);
+    $token = json_decode($tokenContent, true);
+    if (curl_errno($ch)) {
+        echo 'Error:' . curl_error($ch);
+    }
+    curl_close($ch);
+    return $token;
+}
+
+function readJson()
+{
+    $json_string = file_get_contents('list_idannonce.json');
+    $data = json_decode($json_string, true);
+    return($data);
+}
+
+function testAnnonce_api($id)
+{
+    $token = create_token();
+    $ch = curl_init();
+    curl_setopt_array(
+        $ch,
+        [
+            CURLOPT_URL => "https://www.olx.pt/api/v2/offers/{$id}",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HTTPHEADER => ["Authorization: Bearer {$token['access_token']}"]
+        ]
+    );
+        $annonceContent = curl_exec($ch);
+        if (curl_errno($ch)) {
+            echo 'Error:' . curl_error($ch);
+        }
+        curl_close($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        print_r($annonceContent);
+        echo PHP_EOL;
+        print_r($httpCode);
+        if($httpCode = 200){
+            return true;
+        }
+        if($httpCode = 410){
+            return false;
+        }
+        if($httpCode == 403){
+            throw new Exception('Reconnection requise');
+        }
+        throw new Exception('Unknow httpcode');
+
+}
 
 function testAnnonce($url)
     {
@@ -31,9 +115,12 @@ function testAnnonce($url)
         $sign = 'swiper-container'; //container of car image
         $flag = strpos($annonceContent, $sign); //$annonceContent don't have this element if ad no longer available
 
-        if($httpCode==200 && $flag != false) {
-            return true;
-        }
+        if($httpCode==200){
+            if($flag != false) {
+                return true;
+            }
+            return false; //web retiré par le vendeur
+        } 
         if($httpCode == 403){
             throw new Exception('Reconnection requise');
         }
@@ -125,12 +212,14 @@ function testAnnonce($url)
             curl_setopt_array(
                 $ch,
                 [
-                    CURLOPT_URL => "https://www.olx.pt/api/v1/offers/{$idannonce}/phones/",
+                    CURLOPT_URL => "https://www.olx.pt/api/v1/offers/{$idannonce}/limited-phones/",
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_HTTPHEADER => ["Authorization: Bearer {$token['access_token']}"]
                 ]
             );
             $phoneContent = curl_exec($ch);
+            echo('Test>>>>phoneContent'.PHP_EOL);
+            var_dump($phoneContent);
             $phone = json_decode($phoneContent, true);
             if (curl_errno($ch)) {
                 echo 'Error:' . curl_error($ch);
@@ -419,4 +508,29 @@ $u3 = "https://www.olx.pt/d/anuncio/ford-fiesta-pouqussimos-kilometros-IDGHT10.h
 $u4 = "https://www.olx.pt/d/anuncio/audi-a4-1-9-tdi-130-cv-IDGEBr4.html#2d0ff97ec2";//hcode:200 => this ad is no longer available, the seller has already finished this ad
 $u5 = "https://www.olx.pt/d/anuncio/renault-megane-1-5dci-105cv-gps-07-IDGECfu.html#2d0ff97ec2";
 $u6 = "https://www.olx.pt/d/anuncio/volkswagen-passat-IDGEDNr.html#2d0ff97ec2";
-var_dump(testAnnonce($u3));
+$u7 = "https://www.olx.pt/d/anuncio/renault-megane-1-5-IDGEw6p.html#820fe2e299;promoted";//normal
+$tu = 'https://www.olx.pt/d/anuncio/fiat-punto-evo-1-2-2011-IDGA0s1.html#2d0ff97ec2';//在后台能正常下载，带tel。 实测无法下载号码。页面号码与后台不符。
+
+
+testAnnonce_api('629236125');
+
+/* $list_id = readJson();
+$i = 2;
+$list_id_still_online = array();
+array_push($list_id_still_online,'0','1');
+
+
+foreach($list_id as $id)
+{
+    if(testAnnonce_api($id)){
+        echo $i.' is still online'.PHP_EOL;
+        echo $id.PHP_EOL;
+        array_push($list_id_still_online,$url);
+    }
+    $i ++;
+}
+fputcsv('list_id_still_online.csv',$list_id_still_online); */
+
+$tu1 = 'https://www.olx.pt/d/anuncio/fiat-punto-evo-1-2-2011-IDGA0s1.html#2d0ff97ec2'; //"telephonepresent":0' need to login to contact 
+$tu2 = 'https://www.olx.pt/d/anuncio/skoda-fabia-break-IDGuZBq.html#7e43c34482';
+//telephone available on web, srapper cann't get it

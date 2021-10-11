@@ -1,0 +1,411 @@
+id,idflux,cible,pays,type_vehicule,idannonce,available ,,url_recoltee,ts_creation,ts_last_update,loaded,parsed,titre,telephone,nom,prix,codepostal,ville,marque,modele,annee,carburant,description,date_mise_ligne,km,urgent,autres_parametres,statut_vendeur_particulier,ts_last_online_check,encore_en_ligne,encours,telephonepresent,photo_url,id_dico_marque,id_dico_modele,id_dico_carburant
+54160361,3000000,pt_olx,PT,auto,627737577,0,,https://www.olx.pt/d/anuncio/ford-fiesta-1-5-timo-consumo-IDGtWdD.html#2d0ff97ec2,34:20.0,48:21.0,0,1,Ford Fiesta 1.5 otimo consumo,910229131,Catarina,5500,P2795-000,Algés,Ford,Fiesta,2013,Diesel,"5500 E: 5.500 E: Ford Fiesta em otimo estado, pneus novos. inspecao feita em Junho.
+Consumo medio de 5.",26:00.0,150000,0,,1,48:21.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kr55459zc0d91-PT/image,19,729,267
+54246976,3000001,pt_olx,PT,auto,629182202,0,,https://www.olx.pt/d/anuncio/toyota-auris-1-4d-excelente-estado-IDGzZ22.html#50aba2cf64,45:16.0,38:13.0,0,1,Toyota Auris 1.4D - Excelente Estado,926367436,Jair,12900,P2680-103,Camarate,Toyota,Auris,2015,Diesel,12900 E: 12.900 E: Vendo Auris 1.4D em excelente estado de conservacao. Carro pouco rodado. Pneus novos com roda de liga leve originais.,14:00.0,102000,0,,1,38:13.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/lvtg56xg3sxd3-PT/image,24,1384,267
+54456083,3000009,pt_olx,PT,auto,629347486,0,,https://www.olx.pt/d/anuncio/peugeot-108-11-2018-automatico-IDGAG1U.html#e89a87a762,16:55.0,37:54.0,0,1,Peugeot 108 11/2018 automatico,937340048,andrecerqueirapt,9720,P2765-000,Lisboa,Peugeot,,2018,Gasolina,"9720 E: 9.720 E: Vendo Peugeot 108 Style, AUTOMATICO,  Unico Dono, mes 11/2018, cinzento, 5 portas, em excelente estado de conservacao, apenas 21000 ( vinte e um mil km). Direto com o proprietario. Localizaca...",00:00.0,21000,0,,1,37:54.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/dh4myoux7arz2-PT/image,7,,1802
+54246933,3000000,pt_olx,PT,auto,629187657,1,"name  C, tel x",https://www.olx.pt/d/anuncio/fiat-punto-evo-1-2-2011-IDGA0s1.html#2d0ff97ec2,44:56.0,36:47.0,0,1,Fiat Punto Evo 1.2 2011,911052464,Caio,6000,P2675-000,Lisboa,Fiat,Punto Evo,2011,Gasolina,"6000 E: 6.000 E: Fiat Punto Evo 1.2 impecavel LEIA A DESCRICAO.
+
+ACEITO TROCA DEPENDENDO DO CARRO SE FOR MAIS ANTIGO E ACERTA O VALOR.
+
+Notas:
+103.000km 
+Distribuicao trocada em Dezembro
+Jogo completo maxilas...",29:00.0,103000,0,,1,36:47.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/26iu5ajhkd9l-PT/image,13,705,1802
+54244391,3000000,pt_olx,PT,auto,629185664,,,https://www.olx.pt/d/anuncio/nissan-qashqai-1-5-dci-110-cv-n-connecta-IDGzZWS.html#2d0ff97ec2,41:51.0,36:12.0,0,1,"Nissan Qashqai 1.5 dCi, 110 CV N-Connecta",965070610,Pedro Miguel,14500,P1500-000,Lisboa,Nissan,Qashqai,2016,Diesel,"14500 E: 14.500 E: Viatura nacional, os vidros traseiros escurecidos, jantes 18,  4 camaras de estacionamento, GPS, sensores estacionamento frente/tras, teto panoramico, 4 vidros eletricos, em excelente estado...",29:00.0,135000,0,,1,36:12.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/gltxp0mck8362-PT/image,12,1112,267
+54237464,3000013,pt_olx,PT,auto,628993581,,,https://www.olx.pt/d/anuncio/alfa-romeo-stelvio-q4-IDGzbXL.html#e551fff868,24:21.0,34:35.0,0,1,Alfa Romeo  Stelvio Q4,962403368,Luis Gargate,29000,P1000-001,Lisboa,Alfa Romeo,Stelvio,2017,Gasolina,"29000 E: 29.000 E: Stelio, 2.0, 280cv, gasolina, 1 dono, impecavel, full extras, pele escura, tecto de abrir, tracao as quatro rodas, 3/2017, pneus novos e discos novos",00:00.0,82000,0,,1,34:35.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/d1ox5tout0ke3-PT/image,25,6792,1802
+54237285,3000000,pt_olx,PT,auto,626543614,,,https://www.olx.pt/d/anuncio/vw-polo-1-4-bluemotion-IDGoUCa.html#2d0ff97ec2,24:46.0,34:30.0,0,1,VW Polo 1.4 Bluemotion,919696967,Alexandre Santos,11999,P2765-000,Lisboa,VW,Polo,2015,Diesel,"11999 E: 11.999 E: VW POLO 1.4 tdi Bluemotion 
+- Viatura em Excelente Estado; Extras: 
+- Radio Touchscreen; AUX/IN; 
+- Fecho Central c/ Comando; 
+- Volante em Pele; 
+- Computador de Bordo; 
+- Sensores de estac...",43:00.0,150000,0,,1,34:30.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/10kotp3je9kx1-PT/image,8,1448,267
+54149687,3000000,pt_olx,PT,auto,629101637,,,https://www.olx.pt/d/anuncio/volvo-v60-d6-r-design-hibrido-diesel-98-000-kms-nacional-IDGzE4B.html#2d0ff97ec2,36:14.0,33:49.0,0,1,Volvo V60 D6 R-Design Hibrido/Diesel (98.000 kms) ::NACIONAL::,965407467,Joao Carvalho,27000,P1500-000,Lisboa,Volvo,V60,2017,Hibrido,"27000 E: 27.000 E: Configuracao e extras desta viatura:
+
+(i) Cor: Azul (Burstling blue) com tecto panoramico frontal
+(ii) Jantes exclusivas R-Design de 19&amp;amp;#039;&amp;amp;#039; (as maiores homologadas para esta ...",00:00.0,98300,0,,1,33:49.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/31b92eo9djzs3-PT/image,26,1472,1943
+54140059,3000000,pt_olx,PT,auto,629090241,,,https://www.olx.pt/d/anuncio/jeep-wrangler-crd-2-8-IDGzB6N.html#2d0ff97ec2,11:03.0,33:36.0,0,1,Jeep Wrangler CRD 2.8,910241485,Walter,18200,P2765-000,Lisboa,Jeep,Wrangler,2010,Diesel,18200 E: 18.200 E: Manutencao professional. Bom estado. Manutencao professional. Bom estado. Manutencao professional,54:00.0,117000,0,,1,33:36.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/uz96vlz5cj6f3-PT/image,33,869,267
+54155265,3000001,pt_olx,PT,auto,629103313,,,https://www.olx.pt/d/anuncio/microcar-ligier-du-12-2010-IDGzEwD.html#50aba2cf64,53:28.0,33:31.0,0,1,Microcar Ligier Due 12.2010,969250173,Radu,3950,P2710-000,Lisboa,Outra nao listada,Microcar,2010,Diesel,"3950 E: 3.950 E: Microcar Ligier Due.
+Revizao fita 20000km, olio e filtros.
+Bateria, pastilhas, novas.
+Carro muito economico.
+Ano 12/2010.
+Carro de garagem
+-Radio Bluetooth, usb, CDI.
+Cor:branco
+2 lugares
+A g...",46:00.0,20100,0,,1,33:31.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/zbmoz7sz3r8c1-PT/image,27870,27871,267
+54149479,3000000,pt_olx,PT,auto,629100186,,,https://www.olx.pt/d/anuncio/ford-focus-sw-64000km-IDGzDHc.html#2d0ff97ec2,50:49.0,32:41.0,0,1,Ford Focus SW - 64000km,918462756,Joao Matos,12000,P1600-000,Lisboa,Ford,Focus SW,2015,Diesel,"12000 E: 12.000 E: Carrinha Ford Focus de 2015, versao titanium em optimo estado. Motor 1.5 120cv, 6 velocidades.
+
+64 mil kms com livro de revisoes completo.
+
+- Estacionamento automatico paralelo e perpendicul...",56:00.0,64000,0,,1,32:41.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/da9vl7m4u3u6-PT/image,19,730,267
+54149141,3000000,pt_olx,PT,auto,629100017,,,https://www.olx.pt/d/anuncio/fiat-tipo-13-000-km-c-garantia-e-revisoes-na-marca-IDGzDEt.html#2d0ff97ec2,36:16.0,32:38.0,0,1,Fiat Tipo 13.000 km c/ garantia e revisoes na marca,938881004,Fatima Gomes,14250,P2675-000,Lisboa,Fiat,Tipo,2019,Diesel,"14250 E: 14.250 E: Fiat Tipo c/ garantia e revisoes na marca
+13.000 km, viatura de garagem
+
+Diesel, 5 portas, 1.2
+Jantes especiais, AC, Alarme de origem, Cruise control, isofix, USB 
+
+2 chaves e pneu suplente
+...",57:00.0,13000,0,,1,32:38.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/jybgktnecwwh2-PT/image,13,711,267
+54227008,3000000,pt_olx,PT,auto,629171016,,,https://www.olx.pt/d/anuncio/seat-altea-xl-1-6-tdi-105cv-eco-start-stop-IDGzV7C.html#2d0ff97ec2,17:10.0,27:21.0,0,1,Seat Altea XL 1.6 TDI 105cv Eco. Start-Stop,963883584,Bruno,12800,P2675-000,Lisboa,Seat,Altea,2013,Diesel,"12800 E: 12.800 E: Carrinha familiar em muito bom estado e com muitos extras. Sempre assistida a tempo e a horas. Muito economica e fiavel.
+Atualmente conta com 125000 kms. Nunca foi alvo de qualquer sinistro....",36:00.0,126000,0,,1,27:21.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/34b3hfiy11ck1-PT/image,22,1306,267
+54430020,3000000,pt_olx,PT,auto,628337125,,,https://www.olx.pt/d/anuncio/peugeot-2008-impecvel-IDGvrbL.html#2d0ff97ec2,04:23.0,53:34.0,0,1,Peugeot 2008 impecavel,931937404,Bigbaba Portugal,12900,P2735-000,Lisboa,Peugeot,2008,2016,Diesel,"12900 E: 12.900 E: Revisao, 4 pneus novos michelan, levou uma bateria mes passado, unico dono.
+Assistido sempre numa autorizada, vou vender pois vou comprar um novo.",14:00.0,7965,0,,1,53:34.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kf8au6zg2yhc2-PT/image,7,1156,267
+54222874,3000015,pt_olx,PT,auto,628966255,,,https://www.olx.pt/d/anuncio/nissan-qashqai-1-5-dci-115cv-tekna-premium-IDGz4R1.html#1cb886bede,03:56.0,51:34.0,0,1,NISSAN Qashqai 1.5 DCI - 115cv Tekna Premium,924436824,Jorge,24900,P2675-000,Lisboa,Nissan,Qashqai,2018,Diesel,"24900 E: 24.900 E: Nacional , Nao Fumador , Muitos Extras , Caixa Manual 6 Velocidades , Tecto Panoramico , Estofos Pele Aquecidos , Camara Traseira e frente  , Jantes Liga Leve , Sensores estacionamento , AC ...",00:00.0,17979,0,,1,51:34.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/n97vkk8tkhsw1-PT/image,12,1112,267
+54405700,3000000,pt_olx,PT,auto,629368853,,,https://www.olx.pt/d/anuncio/nissan-x-trail-preto-IDGALAx.html#2d0ff97ec2,31:05.0,51:29.0,0,1,Nissan X-Trail Preto,911878719,Joao Lobato,20000,P2685-310,Lisboa,Nissan,X-Trail,2015,Diesel,"20000 E: 20.000 E: Nissan X-Trail preto, com 5 portas, 7 lugares. Esta actualmente com 150.000km, e a gasoleo.",52:00.0,150000,0,,1,51:29.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kz5q02m9tmrg3-PT/image,12,1118,267
+54320552,3000000,pt_olx,PT,auto,629293351,,,https://www.olx.pt/d/anuncio/renault-captur-1-5-dci-22-000-kms-IDGArVL.html#2d0ff97ec2,26:57.0,51:20.0,0,1,Renault Captur 1.5 DCI - 22.000 kms -,912850205,Marcelo,13200,P2765-000,Lisboa,Renault,Captur,2016,Diesel,"13200 E: 13.200 E: Excelente estado, com apenas 22.000 km, todas revisoes feitas na Renault, automatico,  nunca foi batido, motivo da venda mudanca de pais.",43:00.0,22,0,,1,51:20.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/v9e8kp9bluj31-PT/image,10,1226,267
+54320546,3000000,pt_olx,PT,auto,629293851,,,https://www.olx.pt/d/anuncio/fiat-panda-city-cross-impecvel-IDGAs4P.html#2d0ff97ec2,26:57.0,51:16.0,0,1,Fiat Panda city Cross IMPECAVEL!!,910841046,Cris Santos,8500,P1000-001,Lisboa,Fiat,Panda,2019,Gasolina,"8500 E: 8.500 E: Fiat Panda City Cross
+COMO NOVO... IMPECAVEL!
+Direcao assistida
+Ar condicionado
+airbags
+Bluetooth
+Vidros electricos
+Saidas USB para recargar telemovel",06:00.0,17000,0,,1,51:16.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ffjnm0q896jm1-PT/image,13,703,1802
+54216777,3000000,pt_olx,PT,auto,627398450,,,https://www.olx.pt/d/anuncio/fiat-500-1-2-iuc-2021-j-pago-IDGsuZQ.html#2d0ff97ec2,40:59.0,49:16.0,0,1,Fiat 500 1.2  IUC 2021 ja pago,918397779,Jose,7750,P1600-000,Lisboa,Fiat,500,2014,Gasolina,"7750 E: 7.750 E: Vendo Fiat 500  lounge
+
+IUC 2021 ja pago (103,12euros)
+
+Kit sport
+Kit Italia
+Tecto panoramico
+Inteiror claro
+Radio com MP3, bluetooth e usb
+
+Sem detalhes, tudo a funcionar.
+Viatura nacional
+A...",09:00.0,75000,0,,1,49:16.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/6fkjkxwxshr2-PT/image,13,1002,1802
+54216186,3000015,pt_olx,PT,auto,628959217,,,https://www.olx.pt/d/anuncio/mercedes-c-250-amg-nacional-IDGz31w.html#1cb886bede,01:11.0,49:11.0,0,1,Mercedes C 250 AMG Nacional,969015527,fernando ribeiro,31500,P2725-001,Lisboa,,,2015,Diesel,"31500 E: 31.500 E: Modelo AMG; jantes 19; Sistema de som Bur mester; Luzes Led Inteligentes, Keyless Go; Tablier em pele; Teto de Abrir Panoramico; Pack night; Pack espelhos; caixa 7g tronic Plus; GPS; pack pa...",00:00.0,110000,0,,1,49:11.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ztoslpkc5wq22-PT/image,,,267
+54286139,3000000,pt_olx,PT,auto,629236125,,,https://www.olx.pt/d/anuncio/smart-fortwo-nacional-IDGAd3L.html#2d0ff97ec2,29:37.0,49:04.0,0,1,Smart ForTwo (NACIONAL),960345890,Luis,9500,P2725-001,Lisboa,Smart,ForTwo,2015,Gasolina,"9500 E: 9.500 E: Carro em Otimas condicoes tanto exterior como a nivel de mecanica. Com poucos km e com 4 pneus NOVOS. 
+Tem varios extras. 
+Vendo-o por necessitar de um carro com mais lotacao.",48:00.0,78000,0,,1,49:04.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/uunk3752wr23-PT/image,30,1335,1802
+54216407,3000000,pt_olx,PT,auto,627120584,,,https://www.olx.pt/d/anuncio/vendo-carro-muito-bom-IDGrkI8.html#2d0ff97ec2,33:22.0,49:02.0,0,1,vendo carro muito bom,914858481,daniel pinto,5250,P2610-001,Lisboa,Mazda,2,2010,Gasolina,5250 E: 5.250 E: carro muito bom estado . inspecao feita eta fevereiro de 2022. revisao todo feito calsos. pastilhas. oleo. todo . motivo de o vender. compra um corro ou carrinha para andar nas obras. so tem ...,47:00.0,145000,0,,1,49:02.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/lclhwggi5pt53-PT/image,34,965,1802
+54215382,3000001,pt_olx,PT,auto,629163280,,,https://www.olx.pt/d/anuncio/vw-passat-1-6-full-extras-IDGzU6Q.html#50aba2cf64,46:23.0,48:57.0,0,1,Vw Passat 1.6 Full Extras,925957160,nffalves,12500,P2745-000,Lisboa,VW,Passat Variant,2013,Diesel,"12500 E: 12.500 E: Vw Passat 1.6 Full extras
+Possibilidade de Garantia.
+Aceita se retoma de viatura.",18:00.0,120000,0,,1,48:57.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/f8dlxw7y24yj3-PT/image,8,27867,267
+54207574,3000000,pt_olx,PT,auto,629156274,,,https://www.olx.pt/d/anuncio/venda-de-peugeot-2008-optimo-estado-IDGzShQ.html#2d0ff97ec2,14:21.0,48:50.0,0,1,Venda de Peugeot 2008 optimo estado,965696380,Rogerio,11850,P1600-000,Lisboa,Peugeot,2008,2013,Diesel,"11850 E: 11.850 E: Peugeot em otimo estado top de gama com 146,000 KMS
+Contacto apenas por telefone . Nao respondo a emails nem mensagens .
+Obrigada",54:00.0,146000,0,,1,48:50.0,1,0,2,,7,1156,267
+54453436,3000000,pt_olx,PT,auto,629436742,,,https://www.olx.pt/d/anuncio/mercedes-benz-a180d-w176-IDGB3fv.html#2d0ff97ec2,27:43.0,46:43.0,0,1,Mercedes-Benz A180D W176,915004363,Bernardo,16900,P2600-000,Lisboa,,A 180,2016,Diesel,"16900 E: 16.900 E: 107.000KM
+Duas Chaves;
+110 CV 
+Ar Condicionado 
+Vidros Eletricos 
+Ligacoes multimedia USB 
+Sistema ISOFIX 
+Espelhos Eletricos 
+Comandos no Volante
+Computador de Bordo 
+Luzes Automaticas
+Jant...",47:00.0,107,0,,1,46:43.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ergzkyogt78i3-PT/image,,,267
+54096601,3000000,pt_olx,PT,auto,629025005,,,https://www.olx.pt/d/anuncio/kia-rio-1-1-crdi-ecodynamics-2013-IDGzk8B.html#2d0ff97ec2,45:38.0,46:40.0,0,1,Kia Rio 1.1 crdi ECODynamics 2013,967133319,Sofia,7450,P2670-627,Lisboa,Kia,Rio,2013,Diesel,"7450 E: 7.450 E: Vendo Kia Rio (III) 1.1crdi 75cv com 121600kms, 05-2013, cx 6 velocidades e versao ecodynamics. 
+Equipamento de serie: assistente arranque em subida, controlo estabilidade e traccao, luzes di...",47:00.0,121600,0,,1,46:40.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ys2fuxuu7vff-PT/image,27,881,267
+53989869,3000004,pt_olx,PT,auto,628848822,,,https://www.olx.pt/d/anuncio/citroen-c1-1-0-sx-airdream-68cv-5-portas-IDGyAiV.html#b4e5dddccc,01:29.0,41:10.0,0,1,Citroen C1 1.0 Sx Airdream 68cv 5 portas,915228655,Paulo,4500,P2745-000,Lisboa,Citroen,C1,2011,Gasolina,"4500 E: 4.500 E: Citroen C1 5 portas de 2011 68 cv, prateado. Com revisao efetuada. Nao pretendemos trocas",07:00.0,58106,0,,1,41:10.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/w9us5grjbal53-PT/image,1,564,1802
+54171775,3000000,pt_olx,PT,auto,629121574,,,https://www.olx.pt/d/anuncio/bmw-216d-grande-tourer-IDGzJga.html#2d0ff97ec2,53:44.0,40:50.0,0,1,Bmw 216D grande tourer,920505089,DEEP,21000,P2675-000,Lisboa,BMW,116,2017,Diesel,"21000 E: 21.000 E: It’s 7 lugares, It’s used car import from eu country, its Manuel
+The price is really good, if any one like can call me or WhatsApp on my number",50:00.0,150000,0,,1,40:50.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/rn9giboda7b12-PT/image,4,446,267
+53952636,3000005,pt_olx,PT,auto,627992756,,name &tel C,https://www.olx.pt/d/anuncio/skoda-fabia-break-IDGuZBq.html#7e43c34482,35:35.0,27:31.0,0,1,Skoda Fabia break,918418252,Berta Franco,7500,P1000-001,Lisboa,Skoda,Fabia Break,2013,Gasolina,"7500 E: 7.500 E: Optimo estado de conservacao; quase sempre em garagem; circula sobretudo em AE; nunca teve problemas mecanicos ou outros.
+Revisao e inspecao em dia.
+So vendo ao proprio e com registo de propr...",13:00.0,40800,0,,1,34:57.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/7p1vh9yj2amr3-PT/image,38,26945,1802
+53952535,3000004,pt_olx,PT,auto,628788591,,,https://www.olx.pt/d/anuncio/tvde-company-sell-vinde-IDGykDt.html#b4e5dddccc,35:17.0,27:11.0,0,1,Tvde company sell (vinde),920585908,mandeepsingh20031989,16000,P2675-000,Lisboa,Fiat,Tipo,2018,Diesel,"16000 E: 16.000 E: Sell Uber company with car  
+New tyres  ,,no problem the company 
+Uber, bolt , free now, Uber eats",02:00.0,85000,0,,1,27:11.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/bsfsso9irlnt3-PT/image,13,711,267
+53952540,3000004,pt_olx,PT,auto,628788047,,,https://www.olx.pt/d/anuncio/smart-fortwo-coupe-automtico-90cv-passion-IDGykuH.html#b4e5dddccc,35:17.0,27:11.0,0,1,Smart ForTwo Coupe Automatico 90Cv Passion,934924050,Bruno Valladares,11650,P1000-001,Lisboa,Smart,ForTwo,2018,Gasolina,"11650 E: 11.650 E: Viatura acompanhada na Mercedes, com todas os servicos feitos.
+Tem apenas 25.000Kms.
+Mecanica e Estetica Impecaveis.
+Motivo da venda e apenas logistico.
+Troquei de trabalho e nao preciso de ...",44:00.0,24900,0,,1,27:11.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/gj2boqsvvflz1-PT/image,30,1335,1802
+53992806,3000003,pt_olx,PT,auto,628852459,,,https://www.olx.pt/d/anuncio/vw-golf-7-2-0-tdi-dsg-full-extras-IDGyBfB.html#5be0046cfb,32:07.0,49:01.0,0,1,VW Golf 7 2.0 Tdi Dsg - FULL EXTRAS,919210806,autotrader,16700,P1800-000,Lisboa,VW,Golf,2013,Diesel,"16700 E: 16.700 E: Vendo VW Golf 7 2.0 Tdi Dsg 150cv
+
+O carro encontrar se em otimo estado, sempre estimado em todos os aspectos, assistido tempo e horas, de origem sem alteracoes. 
+
+Revisao na marca com regis...",46:00.0,128000,0,,1,49:01.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ch3tfcgf4fni2-PT/image,8,1437,267
+54464650,3000000,pt_olx,PT,auto,629447255,,,https://www.olx.pt/d/anuncio/ford-transit-connect-l1-sport-IDGB5Z5.html#2d0ff97ec2,12:46.0,23:52.0,0,1,Ford Transit Connect L1 Sport,964444878,Joao,13500,P1500-000,Lisboa,Ford,Transit,2018,Diesel,"13500 E: 13.500 E: Carrinha de 3 lugares equipada com ar condicionado automatico, jll 16, sensores de estacionamento e camera de visao traseira, gps, Bluetooth, cruise control, airbag passageiro e revisoes na ...",36:00.0,70000,0,,1,23:52.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/7b2qswfdpzle1-PT/image,19,1504,267
+54006472,3000000,pt_olx,PT,auto,628879689,,name &tel C,https://www.olx.pt/d/anuncio/mercedes-e250-cdi-coup-IDGyIkN.html#2d0ff97ec2,12:53.0,42:26.0,0,1,Mercedes E250 Cdi Coupe,968436035,Rodrigo,19500,P2710-000,Lisboa,,E 250,2010,Diesel,"19500 E: 19.500 E: Mercedes E250 Cdi Coupe de 10/2010, com 135000km reais,  farois Bi-Xenon Direccionais, viatura sempre de garagem,  adquirido na Mercedes Benz Retail Sintra em Junho de 2019,  Livro de Reviso...",29:00.0,135000,0,,1,38:55.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/6sza981tlej73-PT/image,,,267
+54428549,3000000,pt_olx,PT,auto,629393870,,,https://www.olx.pt/d/anuncio/smar-forfour-2015-IDGAS62.html#2d0ff97ec2,13:40.0,34:55.0,0,1,Smar Forfour 2015,921646066,Giovanna Belmiro,8200,P1885-001,Lisboa,Smart,ForFour,2015,Gasolina,"8200 E: 8.200 E: Smart Forfour ano 2015 a venda. 
+Usado em boas condicoes. 
+Unicas avarias demonstradas em fotos do anuncio. 
+Roda bem sem qualquer problema.
+Otimo carro para cidade e viagens.",46:00.0,97281,0,,1,34:55.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kb03net4dcu22-PT/image,30,1334,1802
+54336584,3000000,pt_olx,PT,auto,629310022,,,https://www.olx.pt/d/anuncio/jaguar-xe-prestige-meridian-panoramico-IDGAvhE.html#2d0ff97ec2,14:09.0,32:51.0,0,1,Jaguar XE Prestige Meridian panoramico,931018465,Domingos Barros,31500,P2735-000,Lisboa,Jaguar,XE,2017,Diesel,"31500 E: 31.500 E: Particular, 
+Possibilidade de financiamento
+Diesel
+2 000 cm3
+180 cv
+Caixa Automatica
+Teto abrir
+Farois bi-xenon
+RODAS DE LIGA leve DE 17 &amp;quot;
+Computador de bordo
+Volante de couro
+Luzes diu...",19:00.0,81750,0,,1,32:51.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/65dta09eagn13-PT/image,37,837,267
+54030294,3000002,pt_olx,PT,auto,628904452,,,https://www.olx.pt/d/anuncio/renault-megane-gt-line-2015-IDGyOMc.html#4235bb5099,35:00.0,31:23.0,0,1,Renault Megane Gt Line 2015,965673311,joel Melo,11750,P2745-000,Lisboa,Renault,Megane,2015,Diesel,"11750 E: 11.750 E: Renault Megane Gt line preta de 2015
+Irrepreensivel.. super bom estado geral, 
+Sem riscos ou mosas , caixa manual (6)
+NACIONAL, 
+VERSAO GT LINE, com todos acessorios de origem, GPS, bancos d...",12:00.0,140000,0,,1,04:33.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/42hilaawlrvr2-PT/image,10,1241,267
+53884206,3000000,pt_olx,PT,auto,628724155,,,https://www.olx.pt/d/anuncio/nissan-juke-2018-IDGy3Sb.html#2d0ff97ec2,39:51.0,30:37.0,0,1,Nissan Juke 2018,961804529,Julia,14000,P1000-001,Lisboa,Nissan,Juke,2018,Gasolina,"14000 E: 14.000 E: Nissan Juke  
+1.2 DIG-T 115 CV N-Connecta. 
+Setembro 2018 
+Gasolina
+* Garantia de 1 ano na Nissan.",09:00.0,49,0,,1,30:37.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/9lz9ktl4b0502-PT/image,12,1100,1802
+54404271,3000000,pt_olx,PT,auto,628348652,,"name C, tel D",https://www.olx.pt/d/anuncio/rivale-novo-390-km-IDGvubG.html#2d0ff97ec2,29:57.0,28:45.0,0,1,Rivale novo 390 km,926681240,Jose Santos,34999,P1000-001,Lisboa,Fiat,500,2021,Gasolina,34999 E: 34.999 E: Lindo novo carro de garagem. 400 km comprado a 2 meses,06:00.0,400,0,,1,59:25.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/8hd9pzcbzqay-PT/image,13,1002,1802
+54318805,3000000,pt_olx,PT,auto,629292101,,,https://www.olx.pt/d/anuncio/peugeot-308-allure-ano-15-IDGArCB.html#2d0ff97ec2,18:38.0,24:28.0,0,1,Peugeot 308 allure - ano 15,925434838,fabio fernandres,7800,P2670-000,Lisboa,Peugeot,308 SW,2015,Diesel,"7800 E: 7.800 E: Consumo Urbano4,40 l/100km
+Consumo Extra Urbano3,20 l/100km
+Consumo Combinado3,70 l/100km
+Jantes de Liga Leve
+Ar Condicionado Automatico
+Acabamentos em aluminio
+Farois de nevoeiro
+Farois Diur...",43:00.0,250,0,,1,24:28.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/5fmsujg8u8gh-PT/image,7,1170,267
+53950214,3000000,pt_olx,PT,auto,628783448,,,https://www.olx.pt/d/anuncio/smart-fortwo-09-2011-73-500-kms-gasolina-IDGyjiv.html#2d0ff97ec2,38:11.0,24:26.0,0,1,Smart Fortwo 09/2011 - 73.500 Kms - Gasolina,931125704,Vitor,5250,P1000-001,Lisboa,Smart,ForTwo,2011,Gasolina,"5250 E: 5.250 E: Equipamentos
+ABS
+Airbag passageiro e condutor
+ESP
+Fecho centralizado com comando a distancia
+2 chaves
+Jantes 15&amp;quot;
+Sistema start and stop
+Sistema de ajuda ao arranque nas subidas.
+Vidros e...",14:00.0,73500,0,,1,24:26.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/zgmu103qplte-PT/image,30,1335,1802
+53865768,3000000,pt_olx,PT,auto,628703384,,,https://www.olx.pt/d/anuncio/renault-megane-usado-IDGxYta.html#2d0ff97ec2,00:20.0,24:24.0,0,1,Renault megane usado,937730252,Tuga Telefones,11950,P2675-000,Lisboa,Renault,Megane,2016,Diesel,"11950 E: 11.950 E: 150 000 km ,2016 ,gasoleo, 1500dci, Odivelas Lisboa",35:00.0,150000,0,,1,24:24.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/9ihjq725v3jj1-PT/image,10,1241,267
+54190241,3000000,pt_olx,PT,auto,622391253,,,https://www.olx.pt/d/anuncio/mini-one-cabrio-turbo-com-pack-interior-jcw-IDG7uoB.html#2d0ff97ec2,29:34.0,22:44.0,0,1,"MINI ONE Cabrio Turbo, com Pack Interior JCW",913431499,Nuno,16150,P2795-000,Algés,MINI,Cabrio,2017,Gasolina,"16150 E: 16.150 E: MINI ONE CABRIO, com Pack Interior JCW, motor BMW com 102 CV, 3 modos de conducao - Eco, Medio e Sport.
+Cor - Caribbean Aqua Metalizado; Estofos - Tecido Double Stripe Carbon Black.
+Bom esta...",59:00.0,90000,0,,1,22:44.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kk22h5wkzfc7-PT/image,14,1949,1802
+54120914,3000000,pt_olx,PT,auto,629059062,,,https://www.olx.pt/d/anuncio/vende-bmw-serie-1-proprio-IDGzsZU.html#2d0ff97ec2,47:47.0,22:38.0,0,1,Vende Bmw serie 1 proprio,914359585,Claudia Madaleno,17500,P2795-000,Algés,BMW,116,2018,Diesel,"17500 E: 17.500 E: Vende-se bmw serie 1, prata, diesel. Bom estado. Trata o proprio. Negociavel. Apenas um registo. Contatar por email PT telefone.",05:00.0,131000,0,,1,22:38.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/io6xc67mmd6j3-PT/image,4,446,267
+54236232,3000001,pt_olx,PT,auto,629178300,,,https://www.olx.pt/d/anuncio/vendo-fiat-500-cabrio-IDGzY16.html#50aba2cf64,59:02.0,22:02.0,0,1,Vendo Fiat 500 Cabrio,911865180,Rita Santos,9500,P2625-000,Lisboa,Fiat,500C,2014,Gasolina,"9500 E: 9.500 E: Vendo Fiat 500C Lounge de 2014 com 83.000Km, gasolina.
+
+Para interessados/informacoes, mandar mensagem para o contacto abaixo.",12:00.0,83,0,,1,22:02.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/bo7rjcrip1kd3-PT/image,13,684,1802
+53660518,3000000,pt_olx,PT,auto,628494874,,,https://www.olx.pt/d/anuncio/renault-clio-sport-tourer-1-5-dci-IDGx6e6.html#2d0ff97ec2,18:05.0,20:26.0,0,1,Renault Clio sport tourer 1.5 dCi,960134900,Tiago Barreiros,9000,P2795-000,Algés,Renault,Clio Sport Tourer,2015,Diesel,"9000 E: 9.000 E: Um carro de familia com uso regular mas contido e bem tratado. 
+Foi importado da Alemanha quando era semi-novo com 60.000km e vinha impecavel. Temos cuidado bem dele pois e o nosso unico carr...",51:00.0,127500,0,,1,20:26.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/4ytupzb45idj3-PT/image,10,26971,267
+54491594,3000002,pt_olx,PT,auto,629470968,,,https://www.olx.pt/d/anuncio/mini-cooper-d-impecvel-IDGBc9y.html#4235bb5099,21:46.0,20:16.0,0,1,Mini cooper D impecavel,915647301,Fabio Marques,10000,P1500-000,Lisboa,MINI,Cooper,2011,Diesel,"10000 E: 10.000 E: Mini Cooper D de 2011 em otimo estado.
+Revisoes todas feitas na Marca.
+Diesel 1.6.
+Jantes especiais da Mini
+Consumos baixos. 
+Carro de garagem. 
+Pode trazer  mecanico a vontade .   
+
+Nao pre...",28:00.0,94,0,,1,20:16.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/jjbbpf4ykau31-PT/image,14,1486,267
+53851590,6001146,pt_olx,PT,auto,628689217,,,https://www.olx.pt/d/anuncio/range-rover-evoque-2-0-IDGxUMF.html#520d885cf7,20:37.0,20:09.0,0,1,Range Rover Evoque 2.0,912046354,Rui Daniel,32000,P1000-001,Lisboa,Land Rover,Evoque,2016,Diesel,"32000 E: 32.000 E: Range Rover Evoque Dynamic 2.0
+
+120mil klms
+Versao Coupe
+Motor 2.0 Diesel 180Cv
+Jantes 20 Origem 
+Teto Panoramico 
+Bancos Aquecidos, com memoria",49:00.0,119000,0,,1,31:28.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/enxmitdamo461-PT/image,32,27882,267
+53851696,3000000,pt_olx,PT,auto,628689597,,,https://www.olx.pt/d/anuncio/toyota-hilux-2-5-140milkms-IDGxUSN.html#2d0ff97ec2,23:24.0,20:03.0,0,1,Toyota Hilux 2.5   140milkms,915629344,Monica,23000,P2725-001,Lisboa,Toyota,,2014,Diesel,"23000 E: 23.000 E: Carrinha particular zona do Magoito em Sintra
+Nao me desloco para mostrar, e fica a cargo do comprador o valor da passagem de titular.
+Transferencia de nome efetuada na dia da venda.",10:00.0,140000,0,,1,20:03.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/o2s69t0hkwr5-PT/image,24,,267
+53947555,3000001,pt_olx,PT,auto,628779958,,,https://www.olx.pt/d/anuncio/renault-clio-gt-120-cv-IDGyioe.html#50aba2cf64,55:00.0,19:56.0,0,1,Renault Clio GT 120 CV,962640573,Matos,11500,P2780-000,Lisboa,Renault,Clio,2018,Gasolina,"11500 E: 11.500 E: Carro guardado sempre em garagem, esta novo, sem riscos, sem mossas, com revisoes na Renault (ultima muito recente), IUC pago ate 2022, com 120 CV (1.2 cm3), com caixa de 6 velocidades.
+
+Com...",22:00.0,52000,0,,1,19:56.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/9blhgbrl1q6r2-PT/image,10,1227,1802
+53839637,6001153,pt_olx,PT,auto,628680970,,,https://www.olx.pt/d/anuncio/mercedes-cla-200-cup-kit-amg-IDGxSDE.html#693e0794a6,41:32.0,18:29.0,0,1,Mercedes CLA 200 Cupe KIT AMG,916685662,Diogo Guarda,25500,P2745-000,Lisboa,,CLA 200,2015,Diesel,"25500 E: 25.500 E: Carro Nacional comprado na Mercedes, Matricula de Abril de 2015.
+Revisao B feita no dia 20/06/2021, com discos de travoes da frente e pastilhas da frente substituidas, pastilhas traseiras su...",56:00.0,132500,0,,1,18:29.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/ot8wetrdo7ok-PT/image,,,267
+54028796,3000000,pt_olx,PT,auto,628906398,,,https://www.olx.pt/d/anuncio/nissan-juke-1-5-tekna-sport-IDGyPhA.html#2d0ff97ec2,35:29.0,18:13.0,0,1,Nissan Juke 1.5  Tekna sport,964816232,Margarida,11500,P1500-000,Lisboa,Nissan,Juke,2011,Diesel,"11500 E: 11.500 E: So um dono.
+Motor DCI 110 cv
+Inspecao feita
+Modelo full com:
+Camera traseira
+Computador de bordo
+GPS
+Bluetooth
+USB
+Vidros electricos
+Cruise control
+Ar condicionado
+vidros escuros atras",02:00.0,118000,0,,1,18:13.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/qgqx3lcivb9a-PT/image,12,1100,267
+53947803,3000002,pt_olx,PT,auto,628778404,,,https://www.olx.pt/d/anuncio/nissan-qashqai-diesel-2015-IDGyhZa.html#4235bb5099,55:44.0,18:11.0,0,1,Nissan Qashqai Diesel 2015,961323568,Paulo Fidalgo,16000,P2680-103,Camarate,Nissan,Qashqai,2015,Diesel,"16000 E: 16.000 E: Nissan Qashqai 1.5 dci 360, nacional, em bom estado, jantes liga leve de 17 polegadas.",29:00.0,82000,0,,1,18:11.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/wppl7nezaxmc1-PT/image,12,1112,267
+54487268,3000001,pt_olx,PT,auto,629469064,,,https://www.olx.pt/d/anuncio/citroen-berlingo-2010-de-3-lugares-com-frio-a-funcionar-IDGBbEQ.html#50aba2cf64,04:39.0,15:26.0,0,1,"Citroen berlingo 2010,de 3 lugares com frio a funcionar.",968004359,goncalo silva,5500,P2700-000,Lisboa,Citroen,Berlingo,2010,Diesel,"5500 E: 5.500 E: Tem frio a funcionar faz -22....
+De resto esta impecavel possivel troca negociavel",56:00.0,,0,,1,15:26.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/0kl2r7blvt4w3-PT/image,1,559,267
+54485041,3000001,pt_olx,PT,auto,629466208,,,https://www.olx.pt/d/anuncio/kia-rio-1-2-cvvt-sx-IDGBaUM.html#50aba2cf64,22:54.0,13:17.0,0,1,Kia Rio 1.2 CVVT SX,931014415,Pedro,10490,P1070-500,Lisboa,Kia,Rio,2017,Gasolina,"10490 E: 10.490 E: - Garantia Marca Kia ate 2024
+- Revisoes obrigatorias seguidas sempre em representante oficial Kia (Xanauto)",36:00.0,64000,0,,1,13:17.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/qllg7a6sdy3i-PT/image,27,881,1802
+54482693,3000000,pt_olx,PT,auto,629466065,,,https://www.olx.pt/d/anuncio/renault-clio-1-5-dci-2015-IDGBaSt.html#2d0ff97ec2,38:29.0,11:40.0,0,1,Renault clio 1.5 dci 2015,969510004,Carlos Godinho,11900,P2680-103,Camarate,Renault,Clio,2015,Diesel,"11900 E: 11.900 E: Em muito bom estado, carro de garagem. 102.320 km reais.
+Revisoes todas realizadas na Renault com livro de revisao carimbado como comprovativo. 
+Nao aceito trocas.",29:00.0,102320,0,,1,11:40.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/pakz1xfqij6s-PT/image,10,1227,267
+54478846,3000000,pt_olx,PT,auto,629462611,,,https://www.olx.pt/d/anuncio/bmw-116d-efficient-dynamics-2017-IDGB9YL.html#2d0ff97ec2,24:30.0,08:50.0,0,1,Bmw 116d Efficient Dynamics 2017,964520213,pmg1309,15500,P1300-000,Lisboa,BMW,116,2017,Diesel,"15500 E: 15.500 E: BMW 116d Efficient Dinamics 2017 , irrepreensivel, como novo 86.000kms , pouco uso , revisao feita com a primeira inspecao feita , estofos novissimos , oportunidade",10:00.0,86000,0,,1,08:50.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/98ki6p6pci0d2-PT/image,4,446,267
+54477272,3000000,pt_olx,PT,auto,629461904,,,https://www.olx.pt/d/anuncio/fiat-punto-1-2-gasolina-IDGB9Nm.html#2d0ff97ec2,40:53.0,06:54.0,0,1,Fiat Punto 1.2 gasolina,918639689,ruben.fire1133,7000,P2640-000,Lisboa,Fiat,Punto,2016,Gasolina,"7000 E: 7.000 E: Fiat Punto 1.2 do ano 2016
+Conta com 90000km. Impecavel, sem nada a fazer. 
+Pode trazer mecanico",00:00.0,90000,0,,1,06:54.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/39pw3ycs3snn3-PT/image,13,704,1802
+54427597,6001156,pt_olx,PT,auto,629393360,,,https://www.olx.pt/d/anuncio/renault-espace-paris-IDGARXO.html#d8fd6ef16b,34:52.0,05:45.0,0,1,Renault Espace Paris,962533622,Alexandre Santos,23000,P1500-000,Lisboa,Renault,Espace,2016,Diesel,23000 E: 23.000 E: RENAULT 1.6 DCI Initiale Paris EDC 7L 160cv usado para venda Viatura IMPORTADA com apenas 120.000 kms Excelente nivel de equipamento: Caixa Automatica de 6 velocidades   Sistema DVD   GPS   ...,32:00.0,120000,0,,1,05:45.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/eiz0kr2f8xdi-PT/image,10,1229,267
+54139070,3000000,pt_olx,PT,auto,629089200,,,https://www.olx.pt/d/anuncio/2016-mercedes-benz-gla-75000km-bi-xenon-IDGzAQ0.html#2d0ff97ec2,28:33.0,53:39.0,0,1,2016 Mercedes Benz GLA 75000KM Bi-Xenon,961326897,vendasolx86,21000,P2675-000,Lisboa,,GLA 180,2016,Diesel,"21000 E: 21.000 E: Mercedes Benz GLA 180CDI de 2016 com 75000km
+
+Farois Bi-Xenon, GPS, bancos em pele e tecido, Estacionamento automatico, Attention Assist, cor Montain grey sem riscos, parking pilot, sistema ...",22:00.0,75000,0,,1,53:39.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/7vpy3qbnkzor1-PT/image,,,267
+54139019,3000015,pt_olx,PT,auto,628253765,,,https://www.olx.pt/d/anuncio/peugeot-508-1-6-hdi-business-line-IDGv5wf.html#1cb886bede,25:15.0,52:51.0,0,1,Peugeot 508 1.6 HDI Business Line,912479753,Nuno Silva,11500,P1000-001,,Peugeot,508,2013,Diesel,"11500 E: 11.500 E: Peugeot 508 HDI de Julho de 2013 com 127500 km´s. O carro esta rigorosamente impecavel, carro de garagem muito estimado apenas vendo por se tratar de uma Heranca familiar. 
+
+Extras:
+
+Sensore...",00:00.0,127500,0,,1,09:06.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/8d3rtj0k7sqg3-PT/image,7,1182,267
+54136971,3000000,pt_olx,PT,auto,629085700,,,https://www.olx.pt/d/anuncio/chevrolet-aveo-como-novo-IDGzzWy.html#2d0ff97ec2,00:10.0,51:32.0,0,1,Chevrolet Aveo como NOVO,920065106,Cris Silva,7000,P1300-000,Lisboa,Chevrolet,Aveo,2013,Gasolina,"7000 E: 7.000 E: Carro como NOVO apenas 49 mil Km.
+
+Chevrolet Aveo 1.2 com direcao assistida, Cruise control, vidros eletricos, fecho central, 2 chaves, jantes de liga leve, abs, esp, computador de bordo, rad...",52:00.0,49000,0,,1,35:20.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/54vt66o38xha2-PT/image,2,507,1802
+54133927,3000000,pt_olx,PT,auto,626623365,,,https://www.olx.pt/d/anuncio/nissan-qashqai-dci-1-5-tekna-dct-IDGpfmt.html#2d0ff97ec2,48:22.0,48:59.0,0,1,Nissan Qashqai DCI 1.5 Tekna  DCT,916683035,Wandre,28000,P2625-000,Lisboa,Nissan,Qashqai,2019,Diesel,"28000 E: 28.000 E: Qashqai 2019 - Topo de gama
+Completo!
+
+-Bancos em pele com aquecimento;
+-Teto panoramico;
+-Cameras 360°;
+-Assistente de estacionamento;
+-Gancho de reboque ja instalado;
+
+Dentre outras funcio...",09:00.0,27000,0,,1,48:59.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/5jh1gn1k2y1f3-PT/image,12,1112,267
+54128081,3000000,pt_olx,PT,auto,629070378,,,https://www.olx.pt/d/anuncio/vw-tiguan-r-line-2020-IDGzwVq.html#2d0ff97ec2,56:44.0,46:28.0,0,1,Vw tiguan R-line 2020,918408036,Eduard,50000,P2625-000,Lisboa,VW,Tiguan,2020,Diesel,"50000 E: 50.000 E: Carro novo impecavel.
+Jantes 19 jante suplente pequena 
+Kit R-line exterior.
+Carro de garagem.",21:00.0,3464,0,,1,46:28.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/n31x01lpj9vo3-PT/image,8,1451,267
+54125322,3000000,pt_olx,PT,auto,629067690,,,https://www.olx.pt/d/anuncio/alfa-romeo-giulietta-1-4-t-m-air-sport-gasolina-IDGzwf4.html#2d0ff97ec2,27:44.0,46:21.0,0,1,"Alfa Romeo Giulietta 1.4 T M-air Sport, Gasolina",911034450,Nuno Manique,20000,P1500-000,Lisboa,Alfa Romeo,Giulietta,2018,Gasolina,"20000 E: 20.000 E: APENAS 11.820KM
+
+Farois de Nevoeiro, Regulaveis em altura; Farois Traseiros LED; Farois direcionais; Farois Bi-Xenon; Farois Diurnos; Farois com Sensor Luminosidade
+
+Retrovisores com Regulac...",32:00.0,11820,0,,1,46:21.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/15ri4lwfpxvs3-PT/image,25,344,1802
+54332837,3000000,pt_olx,PT,auto,629305315,,,https://www.olx.pt/d/anuncio/renault-clio-iv-1-5-dci-IDGAw3J.html#2d0ff97ec2,05:41.0,43:58.0,0,1,Renault Clio IV 1.5 dCi,935197587,Ricardo,10000,P2670-000,Lisboa,Renault,Clio,2015,Diesel,"10000 E: 10.000 E: Vendo Renault Clio IV 1.5 dCI, de 03/2015, em bom estado a nivel de mecanica.
+Esteticamente, tem alguns riscos superficiais. O carro nao apresenta qualquer sinal de ferrugem.
+
+E um carro bas...",25:00.0,98000,0,,1,43:58.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/8n2q8jm9oqy21-PT/image,10,1227,267
+54323583,3000000,pt_olx,PT,auto,629297232,,,https://www.olx.pt/d/anuncio/nissan-juke-IDGAsXm.html#2d0ff97ec2,59:27.0,14:44.0,0,1,Nissan Juke,933051146,Np,15500,P1800-000,Lisboa,Nissan,Qashqai  2,2015,Diesel,"15500 E: 15.500 E: Nisssan qashqai full extras , pack gps , pneus novos , revisao em dia , carro de senhora estimado.
+1.5 DCI",09:00.0,75000,0,,1,14:44.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/u6ekjfb3xm68-PT/image,12,2367,267
+54316700,3000000,pt_olx,PT,auto,629289128,,,https://www.olx.pt/d/anuncio/vendo-carro-mitsubishi-space-star-2015-IDGAqQE.html#2d0ff97ec2,58:13.0,09:38.0,0,1,Vendo carro Mitsubishi Space Star 2015,924311435,RosineiaGuadalupe,8500,P2735-000,Lisboa,Mitsubishi,Space Star,2015,Gasolina,"8500 E: 8.500 E: Vendo um MITSUBISHI SPACE STAR de 2015, com poucos quilometros, de cor branca como novo. Em termos de mecanica esta tudo em optimo estado. Revisao sempre foi feita na marca do carro. Com insp...",21:00.0,47736,0,,1,35:20.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/8lnmyq3iryet2-PT/image,9,1077,1802
+54454626,6001151,pt_olx,PT,auto,629439462,,,https://www.olx.pt/d/anuncio/mercedes-c350e-hbrido-IDGB3Xo.html#8aefa6ff26,35:42.0,09:32.0,0,1,Mercedes C350e hibrido,918860136,Rodrigo Ferreira,26500,P1000-001,Lisboa,,C 350,2016,Hibrido,26500 E: 26.500 E: Um Familiar com prestacoes dignas de registo fazem desde Mercedes Classe C 350e PLUG-IN HYBRID um veiculo para todas as ocasioes. O resultado foram 279 cv de potencia combinada e um Consumo ...,27:00.0,82000,0,,1,09:32.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/9meh6hgw7yi2-PT/image,,,1943
+53952634,3000005,pt_olx,PT,auto,628787357,,,https://www.olx.pt/d/anuncio/audi-a5-cabrio-s-line-2-7tdi-IDGykjz.html#7e43c34482,35:35.0,09:30.0,0,1,Audi A5 cabrio S line 2.7tdi,969540432,Luisgarula,14000,P1500-000,Lisboa,Audi,A5 Cabrio,2010,Diesel,14000 E: 14.000 E: Audi A5 cabrio por matricular-se preco de legalizacao 5300 euros carro completamente completo e estimado S line,22:00.0,139,0,,1,09:30.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/i49ydwkvjj2g2-PT/image,20,27051,267
+54296289,3000000,pt_olx,PT,auto,629256142,,,https://www.olx.pt/d/anuncio/bmw-525d-f10-218cv-82-700km-IDGAigC.html#2d0ff97ec2,16:15.0,09:09.0,0,1,BMW 525d [F10]  218cv  - 82.700km,964836622,Alexandre Batista,27000,P2710-000,Lisboa,BMW,525,2015,Diesel,"27000 E: 27.000 E: BMW 525d 218cv (F10) 
+Junho de 2015. 82.600km, optimo estado, todas as revisoes feitas na BMW. Inspeccao valida ate 2023.
+
+Serie 5, extremamente confortavel e potente, modelo com varios extr...",05:00.0,82700,0,,1,09:09.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/hbax2fa1sce63-PT/image,4,451,267
+54296294,3000000,pt_olx,PT,auto,629254098,,,https://www.olx.pt/d/anuncio/citroen-c1-caixa-automtica-IDGAhJE.html#2d0ff97ec2,16:15.0,06:50.0,0,1,Citroen C1 Caixa automatica,969715380,Jorge Sousa,8500,P2675-000,Lisboa,Citroen,C1,2016,Gasolina,"8500 E: 8.500 E: Viatura muito economica e confortavel.
+
+Caixa automatica
+Conducao assistida
+Botoes de comando no volante
+Vidros eletricos
+Bluetooth
+Porta USB e audio",18:00.0,30500,0,,1,06:50.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/hc9e3kucnkgf2-PT/image,1,564,1802
+54186944,3000000,pt_olx,PT,auto,629138905,,,https://www.olx.pt/d/anuncio/bmw-118d-2-0-143cv-pack-m-IDGzNLH.html#2d0ff97ec2,34:52.0,54:33.0,0,1,Bmw 118d 2.0 143cv Pack M,964152860,Rui,16500,P2780-000,Lisboa,BMW,118,2011,Diesel,"16500 E: 16.500 E: Vendo Bmw 118d 2.0 143cv Pack M de Setembro de 2011.
+
+Sou o 2o Dono, comprei o carro com 1 ano e 10.000kms.
+Carro sempre de garagem e estimadissimo como podem comprovar nas fotos. 
+Tanto de ...",22:00.0,95,0,,1,54:33.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/zysz5tgnsy0k-PT/image,4,446,267
+54060879,3000000,pt_olx,PT,auto,628964596,,,https://www.olx.pt/d/anuncio/mercedez-benz-180-d-style-IDGz4qg.html#2d0ff97ec2,38:31.0,54:31.0,0,1,Mercedez Benz 180 D style,968321222,adalberto fernandes,18200,P1600-000,Lisboa,,A 180,2017,Diesel,18200 E: 18.200 E: Vendo mercedez  bens 180  style ...,07:00.0,100000,0,,1,54:31.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/8jbx7sa0u2w71-PT/image,,,267
+54021609,3000000,pt_olx,PT,auto,628899140,,,https://www.olx.pt/d/anuncio/cla-45-amg-armytrix-IDGyNov.html#2d0ff97ec2,09:05.0,51:33.0,0,1,CLA 45 AMG Armytrix,964632232,Andre Lopes,38000,P1000-001,,,CLA 45 AMG,2015,Gasolina,"38000 E: 38.000 E: Mercedes CLA 45 AMG 
+
+- GPS
+- Bancos Aquecidos
+- Camera Traseira
+- Vidro Escurecidos (Averbados no Livrete)
+- Collision Prevention System
+- Farois LED
+- 2 chaves
+
+EXTRA Escape: Armytrix com ...",56:00.0,95000,0,,1,16:58.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/fug1m51tkfhr2-PT/image,,,1802
+54017266,3000000,pt_olx,PT,auto,628891608,,,https://www.olx.pt/d/anuncio/nissan-qashqai-full-extras-nacional-67-000kms-IDGyLr2.html#2d0ff97ec2,47:37.0,03:24.0,0,1,Nissan Qashqai | Full Extras | Nacional | 67.000Kms,916223631,Pedro,15990,P2765-000,Lisboa,Nissan,Qashqai,2014,Diesel,"15990 E: 15.990 E: Nacional, 2014, 1.5Dci Diesel, 67.000kms, Teto panoramico, Ar Condicionado Automatico, Vidros Eletricos, Bancos em pele aquecidos, GPS, Camara estacionamento 360o, Bluetooth, Xenon, Jantes e...",03:00.0,67000,0,,1,03:24.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/juc7tx562k703-PT/image,12,1112,267
+54424363,3000000,pt_olx,PT,auto,629388100,,,https://www.olx.pt/d/anuncio/aixam-coup-gti-branco-IDGAQAY.html#2d0ff97ec2,43:14.0,03:01.0,0,1,Aixam Coupe GTI Branco,912171504,Alejandro Osto,11400,P2765-000,Lisboa,Outra nao listada,Aixam,2017,Diesel,"11400 E: 11.400 E: MAGNIFICA OPORTUNIDADE!!!
+
+Microcar Aixam Coupe GTI
+
+Caracteristicas:
+
+4 lugares
+Vidros Electricos 
+Caixa automatica
+Sensores de estacionamento tras 
+Radio com bluetooth e USB
+Fecho centrali...",22:00.0,35508,0,,1,03:01.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/p6fj1x9n9qed-PT/image,27870,27910,267
+54008335,3000000,pt_olx,PT,auto,628883688,,,https://www.olx.pt/d/anuncio/peugeot-208-1-2-gasolina-IDGyJni.html#2d0ff97ec2,59:33.0,07:34.0,0,1,Peugeot 208 1.2 gasolina,910147874,Bruno Almeida,8500,P2735-000,Lisboa,Peugeot,208,2012,Gasolina,"8500 E: 8.500 E: Carro em otimas condicoes, bem estimado e cuidado.
+
+Motivo de venda : heranca de carrinha mais recente.
+
+Agradeco contacto movel ou email para mais informacoes.
+
+E de 2012 mes 11 (Novembro)
+6...",52:00.0,111202,0,,1,07:34.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/5zritp1tsby2-PT/image,7,1657,1802
+54424361,3000000,pt_olx,PT,auto,629388245,,,https://www.olx.pt/d/anuncio/nissan-micra-bem-estimado-e-com-poucos-kms-IDGAQDj.html#2d0ff97ec2,43:14.0,07:19.0,0,1,Nissan Micra bem estimado e com poucos KMs,931372700,Claudia Ferreira,8500,P2710-000,Lisboa,Nissan,Micra,2017,Gasolina,"8500 E: 8.500 E: Nissan Micra 1.2G EU6 ACENTA CVT8
+
+Com garantia, todas as revisoes feitas na marca e apenas 40.000 KMs.
+A ultima revisao foi feita no dia 15 de Julho e como mostram as faturas, o carro esta e...",26:00.0,40000,0,,1,07:19.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/s16d4ilgc9zo3-PT/image,12,1102,1802
+53940305,3000000,pt_olx,PT,auto,628773824,,,https://www.olx.pt/d/anuncio/renault-megane-gt-line-IDGygNi.html#2d0ff97ec2,06:33.0,07:15.0,0,1,Renault Megane Gt line,967674165,Pedro,15500,P2590-001,Lisboa,Renault,Megane,2017,Diesel,"15500 E: 15.500 E: Cedencia de Credito ou Venda
+Viatura sempre assistido na Renault
+Proxima inspeccao 02-2023",34:00.0,92000,0,,1,07:15.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/1xctmt7ymsu31-PT/image,10,1241,267
+53939367,3000000,pt_olx,PT,auto,628772940,,,https://www.olx.pt/d/anuncio/ford-ka-1-3-tdci-47-000km-gasleo-IDGygz2.html#2d0ff97ec2,55:48.0,07:08.0,0,1,FORD KA 1.3 TDCI 47.000km gasoleo,910001155,Gapf,7000,P1885-001,Lisboa,Ford,KA,2010,Diesel,"7000 E: 7.000 E: Unico Dono
+Carro muito estimado, andou apenas na cidade, sem colisoes
+47.000km
+Manual
+Gasoleo
+Revisoes em dia",41:00.0,47000,0,,1,03:06.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/t7zo1cxe179i1-PT/image,19,739,267
+54419316,3000000,pt_olx,PT,auto,629381391,,,https://www.olx.pt/d/anuncio/toyota-auris-1-4-IDGAOQL.html#2d0ff97ec2,34:30.0,02:29.0,0,1,Toyota Auris 1.4,966074045,celso almeida,7500,P2725-001,Lisboa,Toyota,,2013,Diesel,"7500 E: 7.500 E: Vendo ou troco por Moto ou carro de menor valor.  Toyota todo revisado, nada a fazer e IUC pago. Inspecao so em novembro.  Excelente carro.
+Quantos km: 345 mil motor funciona na perfeicao.
+Da...",42:00.0,345,0,,1,02:29.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/eoaox93kjsxi2-PT/image,24,,267
+54419308,3000000,pt_olx,PT,auto,629382068,,,https://www.olx.pt/d/anuncio/mercedes-cla180d-IDGAP1G.html#2d0ff97ec2,34:30.0,02:28.0,0,1,Mercedes CLA180d,917308436,Luis Antonio Raposo,36990,P1885-001,Lisboa,,CLA 180,2019,Diesel,"36990 E: 36.990 E: Carrinha Mercedes CLA 180 d 
+Preco novo aprox.: 49.900E
+Emissoes CO2 : 109g/km
+Pintura metalizada 
+Ar condicionado
+Farois 
+Espelhos anti encadeamento
+Sensor de chuva
+Jantes de 17”
+Vidros tra...",09:00.0,607,0,,1,02:28.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/t5roo6i9geej-PT/image,,,267
+54417846,3000001,pt_olx,PT,auto,629373478,,,https://www.olx.pt/d/anuncio/renault-captur-start-2015-IDGAMN8.html#50aba2cf64,32:08.0,32:57.0,0,1,Renault Captur | Start | 2015,923276498,tiago,11000,P1300-000,Lisboa,Renault,Captur,2015,Diesel,"11000 E: 11.000 E: Data da primeira matricula 01/2015
+Kms 450000
+Cor Bege
+Cilindrada 1461 cm³
+Potencia 90 cv
+Combustivel Diesel",24:00.0,45000,0,,1,32:57.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/od2vonqq8jjj2-PT/image,10,1226,267
+54417842,3000001,pt_olx,PT,auto,629373512,,,https://www.olx.pt/d/anuncio/volvo-v40-1-6-d2-kinetic-2014-IDGAMNG.html#50aba2cf64,32:08.0,32:54.0,0,1,Volvo V40 | 1.6 D2 Kinetic | 2014,923276617,Vasco,11000,P1300-000,Lisboa,Volvo,V40,2014,Diesel,"11000 E: 11.000 E: Data da primeira matricula 5/2014
+Kms 88667
+Cor Branco
+Cilindrada 1560 cm³
+Potencia 114
+Combustivel Diesel",30:00.0,88667,0,,1,32:54.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/9vcqipw4op8a1-PT/image,26,1469,267
+54417845,3000001,pt_olx,PT,auto,629373491,,,https://www.olx.pt/d/anuncio/peugeot-308sw-1-6-blue-hdi-2015-IDGAMNl.html#50aba2cf64,32:08.0,42:05.0,0,1,Peugeot 308SW | 1.6 Blue HDI | 2015,923276520,tomas,12000,P1500-000,Lisboa,Peugeot,308 SW,2015,Diesel,"12000 E: 12.000 E: Data da primeira matricula 11/2015
+Kms 89000
+Cor Azul
+Cilindrada 1560 cm³
+Potencia 120 cv
+Combustivel Diesel",25:00.0,89000,0,,1,42:05.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/1k7m613w12dp3-PT/image,7,1170,267
+54408075,3000000,pt_olx,PT,auto,629372852,,,https://www.olx.pt/d/anuncio/renault-mgane-sport-tourer-1-5-dci-gt-line-IDGAMD2.html#2d0ff97ec2,34:31.0,27:32.0,0,1,Renault Megane Sport Tourer 1.5 DCi GT Line,916575818,Pedro Santana,17000,P2670-000,Lisboa,Renault,Megane Sport Tourer,2017,Diesel,"17000 E: 17.000 E: Viatura Nacional em excelente estado, como nova.
+Sem acidentes.
+Nao fumadores.
+Revisoes sempre feitas na marca. Revisao feita recentemente aos 52000km.
+Motivo de venda: como a familia cresce...",00:00.0,54348,0,,1,27:32.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/4jgrbs298u322-PT/image,10,26961,267
+54407513,3000000,pt_olx,PT,auto,623619272,,,https://www.olx.pt/d/anuncio/nisan-pulsar-IDGcDRm.html#2d0ff97ec2,29:46.0,27:30.0,0,1,Nisan pulsar,964510622,emacarlos41,10000,P2735-000,Lisboa,Nissan,1200,2016,Gasolina,"10000 E: 10.000 E: Carro em perfeito estado, com 60mil km 
+Para mais informacoes entre em contacto",15:00.0,60000,0,,1,27:30.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/chlfmx875ss9-PT/image,12,1424,1802
+54407822,3000000,pt_olx,PT,auto,629371881,,,https://www.olx.pt/d/anuncio/volvo-v40-r-design-1-6-d2-nacional-IDGAMnn.html#2d0ff97ec2,41:03.0,27:19.0,0,1,Volvo V40 R Design 1.6 D2 Nacional,967258962,Rafael Cruz,16250,P1600-000,Lisboa,Volvo,V40,2015,Diesel,"16250 E: 16.250 E: Carro Nacional com 68 mil klm revisao efectuada versao R Disign 1.6 D2
+= Travagem emergencia em caso de colisao.
+= Sensores de estacionamento e de chuva. 
+= Aujda de arranque em subida.. 
+= ...",22:00.0,68000,0,,1,27:19.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/iyxbxbg2tzh13-PT/image,26,1469,267
+53934550,3000000,pt_olx,PT,auto,628769419,,,https://www.olx.pt/d/anuncio/vendo-golf-1-6-tdi-dsg-confortline-IDGyfEf.html#2d0ff97ec2,38:16.0,27:06.0,0,1,Vendo Golf 1.6 Tdi DSG Confortline,930483140,David Madeira,14990,P2620-184,Lisboa,VW,Golf Variant,2016,Diesel,"14990 E: 14.990 E: Vendo Golf carrinha 110cv caixa DSG, com GPS, Apple car play, android auto, radio com CD, multimedia, vidros electricos, fecho central, ar condicionado, jantes de 17” com pneus Bridgestone P...",23:00.0,124000,0,,1,27:06.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/v42xnzmccdmj2-PT/image,8,27872,267
+54401107,3000000,pt_olx,PT,auto,629364141,,,https://www.olx.pt/d/anuncio/nissan-juke-somente-com-80-000km-IDGAKmx.html#2d0ff97ec2,19:42.0,26:52.0,0,1,Nissan Juke somente com 80 000km,969518007,Cristina,11500,P2615-000,Lisboa,Nissan,Juke,2011,Gasolina,"11500 E: 11.500 E: Carro cuidado e estimado. De garagem.
+Pertence a uma pequena colecao e foi somente usado para lazer/passeio de exibicao.
+Data de matricula: 27/12/2011",32:00.0,80,0,,1,26:52.0,1,0,2,,12,1100,1802
+54167011,3000000,pt_olx,PT,auto,629115037,,,https://www.olx.pt/d/anuncio/renault-megane-2015-IDGzHyJ.html#2d0ff97ec2,13:50.0,21:21.0,0,1,Renault Megane 2015,932830274,Inocencio,7350,P2765-000,Lisboa,Renault,Megane,2015,Diesel,"7350 E: 7.350 E: Renault 
+Modelo Megane
+Motor 1.5 dci
+209 mil km
+Carro sempre revisoanado  a horas e dias.
+
+Extras
+Cruise control 
+Gps profissional 
+Sensores estacionamento 
+Vidros eletricos
+Ect ect para mais...",31:00.0,20009,0,,1,21:21.0,1,0,2,,10,1241,267
+54401103,3000000,pt_olx,PT,auto,629364594,,,https://www.olx.pt/d/anuncio/pegeot-208-1-2-style-2017-64mil-km-IDGAKtQ.html#2d0ff97ec2,19:42.0,21:15.0,0,1,Pegeot 208 1.2 style 2017 64mil km,962789759,Rui Monteiro,9500,P2680-103,Camarate,Peugeot,208,2017,Gasolina,"9500 E: 9.500 E: Pegeot 208 1.2 style 2017 64mil km 
+Duas Chaves, Manuais disponiveis.
+revisoes em dia.",50:00.0,64284,0,,1,21:15.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/llead5oi4usr3-PT/image,7,1657,1802
+54003006,3000000,pt_olx,PT,auto,628874222,,,https://www.olx.pt/d/anuncio/renault-clio-sport-tourer-1-5-dci-IDGyGUC.html#2d0ff97ec2,49:22.0,20:21.0,0,1,Renault Clio Sport Tourer 1.5 DCi,919401774,Antonio Cardoso,9000,P2675-000,Lisboa,Renault,Clio,2013,Diesel,"9000 E: 9.000 E: 1 dono, Nacional, 125000Kms, sempre assistida na marca, tecto panoramico, cruise control   limitador de velocidade, espelhos e 4 vidros electricos, AC Auto, GPS, sensores de luzes e chuva, se...",07:00.0,125000,0,,1,20:21.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/kkmb1yegkn6z2-PT/image,10,1227,267
+53908184,3000000,pt_olx,PT,auto,628746954,,,https://www.olx.pt/d/anuncio/smart-fortwo-2011-diesel-IDGy9NU.html#2d0ff97ec2,07:38.0,20:18.0,0,1,Smart Fortwo 2011 Diesel,917623580,Brazuna,6300,P2670-000,Lisboa,Smart,ForTwo,2011,Diesel,"6300 E: 6.300 E: Carro em bom estado, com algumas marcas de uso.
+Possibilidade de financiamento e retoma por carro de 5 portas e de 5 lugares.
+Motivo aumento da Familia.",20:00.0,123409,0,,1,20:18.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/hkscuxbet8px2-PT/image,30,1335,267
+54343596,6001144,pt_olx,PT,auto,629318666,,,https://www.olx.pt/d/anuncio/jaguar-e-pace-2-0-i4d-r-dynamic-s-como-novo-IDGAyx4.html#a62e1c036c,21:25.0,11:55.0,0,1,Jaguar E-Pace 2.0 I4D R-Dynamic S como novo,936449643,MARIA JOSE MOUTINHO,35750,P2775-000,Lisboa,Jaguar,,2018,Diesel,35750 E: 35.750 E: Carro como novo. Poucos KLM e muito bem estimado. Fez revisao dos 55.000 Klm. Paga classe 1 nas portagens.,58:00.0,56400,0,,1,11:55.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/xy329557bo8l-PT/image,37,,267
+54343637,3000000,pt_olx,PT,auto,629318457,,,https://www.olx.pt/d/anuncio/peugeot-108-top-style-IDGAytH.html#2d0ff97ec2,22:13.0,39:49.0,0,1,Peugeot 108 top style,965065629,manel.mane,10500,P2675-000,Lisboa,Peugeot,,2019,Gasolina,10500 E: 10.500 E: Peugeot 108 cabriolet style impecavel. Com extras e carro de garagem. Ainda no periodo de garantia.,43:00.0,15000,0,,1,39:49.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/t1bseb4x2f1v2-PT/image,7,,1802
+54294736,3000000,pt_olx,PT,auto,627342091,,,https://www.olx.pt/d/anuncio/fiat-tipo-16000-km-reais-IDGsgkP.html#2d0ff97ec2,10:28.0,37:34.0,0,1,Fiat tipo 16000 km reais,917770677,Nuno,13300,P2710-000,Lisboa,Fiat,Tipo,2018,Diesel,"13300 E: 13.300 E: Fiat Tipo carrinha 1.6 M-Jet Lounge com 16000 Km, com todo o equipamento desta versao . Carro particular , Nunca foi Uber. Se estiver interessado telefone , (nao atendo mensagens).",14:00.0,16500,0,,1,37:34.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/37py3o68hdvs2-PT/image,13,711,267
+54209607,3000000,pt_olx,PT,auto,629158284,,,https://www.olx.pt/d/anuncio/fiat-500-1-3-jtd-90cv-IDGzSOg.html#2d0ff97ec2,57:02.0,35:27.0,0,1,Fiat 500 1.3 jtd 90cv,963187757,Antonio,7800,P1300-000,Lisboa,Fiat,500,2011,Diesel,"7800 E: 7.800 E: Viatura em muito bom estado geral
+Teto panoramico
+Bancos em pele
+Ac
+Bluetooth
+2 chaves",47:00.0,115000,0,,1,35:27.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/0mvg56dbv5xs2-PT/image,13,1002,267
+54088201,3000000,pt_olx,PT,auto,607337981,,,https://www.olx.pt/d/anuncio/mini-one-d-5-portas-ice-chocolate-como-novo-IDF6klT.html#2d0ff97ec2,35:34.0,34:52.0,0,1,MINI ONE D 5 portas Ice Chocolate como novo,939966030,Rute,13900,P2745-000,Lisboa,MINI,One,2015,Diesel,"13900 E: 13.900 E: MINI com apenas 59650 km, como novo, com revisoes oficiais feitas na Marca.
+Com 5 portas na cor ICE Chocolate e com varios extras.",44:00.0,59650,0,,1,34:52.0,1,0,2,https://ireland.apollo.olxcdn.com:443/v1/files/io5a8w57v4sk2-PT/image,14,1500,267
+,,,,,,,14 still online,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
