@@ -1,5 +1,5 @@
 <?php
 $str = 'abcdefg des ehij k';
 $x = 'd';
-$ans = strpos($str, $x);
-var_dump($ans);
+$c_str = ucwords($str);
+var_dump($c_str);
