@@ -190,7 +190,7 @@ function downloadAnnonce($idAnnonce)
     if ($httpCode === 404) {
         return false;
     }
-    $json_annonce['telephonepresent'] = 0;
+    $jsonAnnonce['telephonepresent'] = 0;
     $jsonAnnonce["telephone"] = '';
     if(isset($annonce['data']['contact']['phone']) && $annonce['data']['contact']['phone'] == 1)//check if having phone number
     {
@@ -236,32 +236,33 @@ function downloadAnnonce($idAnnonce)
     echo (PHP_EOL);
     
     // Prix
-    /* echo (">>>> Test Prix".PHP_EOL);
-    foreach
-    if(isset($annonce['data']["params"][6]['key']) &&)
-    {
-
-    }; */
-
-
-
-
-    $matches = array();
-    $pattern = '/pricelabel__value[^>]+>([^€]+)/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (!isset($matches[1])) {
-        $matches = array();
-        $pattern = '/"regularPrice":{"value":([0-9]+)/s';
-        preg_match($pattern, $annonceContent, $matches);
+   
+    $jsonAnnonce["prix"]= '';
+    foreach($annonce['data']["params"] as $key){
+        if($key['key'] == "price"){
+            $jsonAnnonce["prix"]= $key['value']['value'];
+        }
     }
-    if (!isset($matches[1])) {
-        $matches = array();
-        $pattern = '/name="description" content="([0-9]+) €:/s';
-        preg_match($pattern, $annonceContent, $matches);
-    }
-    $jsonAnnonce["prix"] = str_replace(".", "", trim($matches[1]));
+    echo (">>>> Test Prix".PHP_EOL);
+    print_r($jsonAnnonce["prix"]);
+    echo (PHP_EOL);
+
 
     // Année
+    $jsonAnnonce["annee"]= '';
+    foreach($annonce['data']["params"] as $key){
+        if($key['key'] == "year"){
+            $jsonAnnonce["annee"]= $key['value']['key'];
+        }
+    }
+    echo (">>>> Test Annee".PHP_EOL);
+    print_r($jsonAnnonce["annee"]);
+    echo (PHP_EOL);
+
+    
+    echo (">>>> Test jsonAnnonce".PHP_EOL);
+    var_dump($jsonAnnonce);
+
     $matches = array();
     $pattern = '/<span class="offer-details__name">Ano<\/span>[\n\s]+<strong class="offer-details__value">([0-9]{4})/s';
     preg_match($pattern, $annonceContent, $matches);
@@ -448,7 +449,9 @@ $u7 = "https://www.olx.pt/d/anuncio/renault-megane-1-5-IDGEw6p.html#820fe2e299;p
 $tu = 'https://www.olx.pt/d/anuncio/fiat-punto-evo-1-2-2011-IDGA0s1.html#2d0ff97ec2';//在后台能正常下载，带tel。 实测无法下载号码。页面号码与后台不符。
 $idFord = '626734436';
 $idJeep = '631524904';
-downloadAnnonce($idFord);
+$idx1 = '631501824';
+$idx2 = '631497768';
+testAnnonce_api('607339970');
 
 
 //print_r(create_token());
