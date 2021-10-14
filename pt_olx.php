@@ -276,6 +276,39 @@ function downloadAnnonce($idAnnonce)
     print_r($jsonAnnonce["carburant"]);
     echo (PHP_EOL);
 
+    //Modele
+    $jsonAnnonce["modele"]='';
+
+    foreach($annonce['data']["params"] as $key){
+        if($key['key'] == "modelo"){
+            $jsonAnnonce["modele"]= $key['value']['label'];
+        }
+    }
+    echo (">>>> Test Modele".PHP_EOL);
+    print_r($jsonAnnonce["modele"]);
+    echo (PHP_EOL);
+
+    //Km
+    $jsonAnnonce["km"]='';
+
+    foreach($annonce['data']["params"] as $key){
+        if($key['key'] == "quilometros"){
+            $jsonAnnonce["km"]= $key['value']['key'];
+        }
+    }
+    echo (">>>> Test KM".PHP_EOL);
+    print_r($jsonAnnonce["km"]);
+    echo (PHP_EOL);
+
+/*
+                "key": "quilometros",
+                "name": "Quil\u00f3metros",
+                "type": "input",
+                "value": {
+                    "key": "283000",
+                    "label": "283.000 km"
+                }*/
+
     // Marque
 
     $jsonAnnonce["marque"] = '';
@@ -355,37 +388,17 @@ function downloadAnnonce($idAnnonce)
     print_r($jsonAnnonce["marque"]);
     echo (PHP_EOL);
         
+    $jsonAnnonce["date_mise_ligne"] = $annonce['data']['created_time'];
+    echo (">>>> Test date_mise_ligne".PHP_EOL);
+    print_r($jsonAnnonce["date_mise_ligne"]);
+    echo (PHP_EOL);
+
+
     
 
-    // Modèle
-    $matches = array();
-    $pattern = '/<span class="offer-details__name">Modelo<\/span>[\n\s]+<strong class="offer-details__value">([^<]+)/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["modele"] = $matches[1];
-    } else {
-        $pattern = '/Modelo: ([^<]+)/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[1])) {
-            $jsonAnnonce["modele"] = trim($matches[1]);
-        }
-    }
-
-    // Km
-    $matches = array();
-    $pattern = '/<span class="offer-details__name">Quilómetros<\/span>[\n\s]+<strong class="offer-details__value">([.0-9<]+)/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["km"] = str_replace(".", "", $matches[1]);
-    } else {
-        $pattern = '/Quilómetros: ([^ ]+) km/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[1])) {
-            $jsonAnnonce["km"] = filter_var($matches[1], FILTER_SANITIZE_NUMBER_INT);
-        }
-    }
-
     // Date de mise en ligne
+    /*
+    date/ "created_time": "2021-10-12T15:36:15+01:00",*/
     $arr_portugese_months = array(
         "Jan" => "01",
         "Fev" => "02",
@@ -504,7 +517,7 @@ $idFord = '626734436';
 $idJeep = '631524904';
 $idx1 = '631501824';
 $idx2 = '631497768';
-downloadAnnonce('631406763');
+downloadAnnonce('629187657');
 
 
 //print_r(create_token());
