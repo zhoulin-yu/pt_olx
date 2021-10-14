@@ -265,46 +265,97 @@ function downloadAnnonce($idAnnonce)
     echo (PHP_EOL);
 
 
-    $matches = array();
-    $pattern = '/<span class="offer-details__name">Ano<\/span>[\n\s]+<strong class="offer-details__value">([0-9]{4})/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["annee"] = $matches[1];
-    } else {
-        $pattern = '/Ano: ([0-9]{4})/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[1])) {
-            $jsonAnnonce["annee"] = trim($matches[1]);
-        }
-    }
-
     // Carburant
-    $matches = array();
-    $pattern = '/<span class="offer-details__name">Combustível<\/span>[\n\s]+<strong class="offer-details__value">([^<]+)/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["carburant"] = $matches[1];
-    } else {
-        $pattern = '/Combustível: ([^<]+)/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[1])) {
-            $jsonAnnonce["carburant"] = trim($matches[1]);
+    $jsonAnnonce["carburant"]= '';
+    foreach($annonce['data']["params"] as $key){
+        if($key['key'] == "combustivel"){
+            $jsonAnnonce["carburant"]= $key['value']['label'];
         }
     }
+    echo (">>>> Test carburant".PHP_EOL);
+    print_r($jsonAnnonce["carburant"]);
+    echo (PHP_EOL);
 
     // Marque
-    $matches = array();
-    $pattern = '/"cat_l2":"([ \-a-z]+)"/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["marque"] = $matches[1];
-    } else {
-        $pattern = '/<a[^>]+>([^-]+)- [^<]+<\/a><\/li><\/ol>/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[1])) {
-            $jsonAnnonce["marque"] = trim($matches[1]);
-        }
+
+    $jsonAnnonce["marque"] = '';
+    $list_marque = array
+    (
+        "4914" => "Abarth",
+        "763" => "Alfa Romeo",
+        "753" => "Aston Martin",
+        "751" => "Audi",
+        "749" => "Austin Morris",
+        "743" => "Bentley",
+        "741" => "BMW",
+        "731" => "Chevrolet",
+        "729" => "Chrysler",
+        "727" => "Citroen",
+        "721" => "Dacia",
+        "719" => "Daewoo",
+        "717" => "Daihatsu",
+        "4922" => "Datsun",
+        "707" => "Dodge",
+        "4879" => "DS",
+        "701" => "Ferrari",
+        "699" => "Fiat",
+        "697" => "Ford",
+        "689" => "GMC",
+        "683" => "Honda",
+        "681" => "Hummer",
+        "679" => "Hyundai",
+        "673" => "Isuzu",
+        "671" => "Jaguar",
+        "669" => "Jeep",
+        "665" => "Kia",
+        "663" => "Lada",
+        "661" => "Lamborghini",
+        "659" => "Lancia",
+        "657" => "Land Rover",
+        "655" => "Lexus",
+        "649" => "Lotus",
+        "645" => "Maserati",
+        "641" => "Mazda",
+        "637" => "Mercedes-Benz",
+        "633" => "MG",
+        "631" => "MINI",
+        "629" => "Mitsubishi",
+        "621" => "Nissan",
+        "617" => "Opel",
+        "769" => "Other",
+        "613" => "Peugeot",
+        "607" => "Porsche",
+        "603" => "Renault",
+        "601" => "Rolls Royce",
+        "817" => "Rover",
+        "815" => "Saab",
+        "809" => "Seat",
+        "805" => "Skoda",
+        "803" => "Smart",
+        "801" => "SsangYong",
+        "797" => "Subaru",
+        "795" => "Suzuki",
+        "791" => "Tata",
+        "4885" => "Tesla",
+        "789" => "Toyota",
+        "781" => "Vauxhall",
+        "777" => "VW",
+        "775" => "Volvo",
+        "819" => "UMM"
+    );
+    if(isset($annonce['data']['category']['id']))
+    {
+        $cat_index = $annonce['data']['category']['id'];
+        if (array_key_exists($cat_index,$list_marque))
+        {
+            $jsonAnnonce["marque"] = $list_marque[$cat_index];
+        }       
     }
+    echo (">>>> Test Marque".PHP_EOL);
+    print_r($jsonAnnonce["marque"]);
+    echo (PHP_EOL);
+        
+    
 
     // Modèle
     $matches = array();
@@ -453,7 +504,7 @@ $idFord = '626734436';
 $idJeep = '631524904';
 $idx1 = '631501824';
 $idx2 = '631497768';
-testAnnonce_api('631636251');
+downloadAnnonce('631406763');
 
 
 //print_r(create_token());
