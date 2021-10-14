@@ -1,0 +1,120 @@
+
+
+4102021-10-13 15:04:33 : Annonce toujours en ligne
+2021-10-13 15:04:33 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:34 : Ping annonce https://www.olx.pt/anuncio/nissan-qashqai-2-tekna-premium-360-nacional-100-000km-IDFtan4.html#135089bbf2
+
+4042021-10-13 15:04:35 : Annonce toujours en ligne
+2021-10-13 15:04:35 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:35 : Ping annonce https://www.olx.pt/anuncio/renault-megane-dynamique-ss-1-5cc-110cv-IDFth8p.html#1e999ca37f
+
+4102021-10-13 15:04:37 : Annonce toujours en ligne
+2021-10-13 15:04:37 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:37 : Ping annonce https://www.olx.pt/anuncio/kia-sportage-1-7-crdi-gt-line-IDF6kRY.html#4516b788a5
+>>>> idannonce= '607339970'
+>>>> should trun 410
+
+4102021-10-13 15:04:39 : Annonce toujours en ligne
+2021-10-13 15:04:39 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:39 : Ping annonce https://www.olx.pt/anuncio/cedncia-de-crdito-ou-venda-IDFdKKG.html#4516b788a5
+
+4102021-10-13 15:04:41 : Annonce toujours en ligne
+2021-10-13 15:04:41 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:41 : Ping annonce https://www.olx.pt/anuncio/bmw-320-cabrio-m-sport-2010-IDFxIEo.html#4516b788a5
+
+2002021-10-13 15:04:42 : Annonce toujours en ligne
+2021-10-13 15:04:42 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:43 : Ping annonce https://www.olx.pt/anuncio/renault-zoe-IDFxJvn.html#4a58b1df3f
+
+4042021-10-13 15:04:45 : Annonce toujours en ligne
+2021-10-13 15:04:45 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:45 : Ping annonce https://www.olx.pt/anuncio/vendo-fiat-IDFA1zh.html#4a58b1df3f
+>>>>  idannonce = '614415615'
+>>>> should turn 410
+
+4102021-10-13 15:04:46 : Annonce toujours en ligne
+2021-10-13 15:04:46 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:47 : Ping annonce https://www.autoscout24.com/offers/volkswagen-golf-plus-2-0tdi-sport-dsg-140-diesel-blue-92a57ba7-d8e6-4f33-e053-0100007fd8a8?cldtidx=1&amp;cldtsrc=listPage
+2021-10-13 15:04:48 : Annonce toujours en ligne
+2021-10-13 15:04:48 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:49 : Ping annonce https://www.olx.pt/anuncio/smart-fortwo-coup-0-8-cdi-passion-IDFR8cz.html#c112cd028c
+
+4042021-10-13 15:04:50 : Annonce toujours en ligne
+2021-10-13 15:04:50 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:51 : Ping annonce https://www.olx.pt/anuncio/abarth-595c-1-4-145cv-19-mil-kms-IDFRAcr.html#4516b788a5
+
+4102021-10-13 15:04:52 : Annonce toujours en ligne
+2021-10-13 15:04:52 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:53 : Ping annonce https://www.olx.pt/anuncio/kia-carens-1-7-crdi-IDFRL3w.html#1e999ca37f
+
+2002021-10-13 15:04:54 : Annonce toujours en ligne
+2021-10-13 15:04:54 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:55 : Ping annonce https://www.olx.pt/anuncio/mazda-6-IDFROnD.html#1e999ca37f
+
+4102021-10-13 15:04:56 : Annonce toujours en ligne
+2021-10-13 15:04:56 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:57 : Ping annonce https://www.olx.pt/anuncio/carro-IDFRTPj.html#4516b788a5
+
+2002021-10-13 15:04:58 : Annonce toujours en ligne
+2021-10-13 15:04:58 : Mise a jour du statut de l'annonce
+2021-10-13 15:04:59 : Ping annonce https://www.olx.pt/anuncio/citroen-c4-catus-IDFS39N.html#4516b788a5
+
+4042021-10-13 15:05:00 : Annonce toujours en ligne
+2021-10-13 15:05:00 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:01 : Ping annonce https://www.olx.pt/anuncio/audi-a1-1-6cc-IDFSgDJ.html#4516b788a5
+
+4042021-10-13 15:05:02 : Annonce toujours en ligne
+2021-10-13 15:05:02 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:03 : Ping annonce https://www.olx.pt/anuncio/smart-fortwo-0-8-cdi-passion-cx-automtica-IDFSuav.html#4516b788a5
+
+4042021-10-13 15:05:04 : Annonce toujours en ligne
+2021-10-13 15:05:04 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:05 : Ping annonce https://www.olx.pt/anuncio/peugeot-sw-308-e-hdi-sportium-IDFObj9.html#4516b788a5
+
+4042021-10-13 15:05:06 : Annonce toujours en ligne
+2021-10-13 15:05:06 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:07 : Ping annonce https://www.olx.pt/anuncio/smart-forfour-eq-IDFSQ23.html#4516b788a5
+
+4042021-10-13 15:05:08 : Annonce toujours en ligne
+2021-10-13 15:05:08 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:09 : Ping annonce https://www.olx.pt/anuncio/vendo-renault-clio-em-muito-bom-estado-IDFTsau.html#4516b788a5
+
+4102021-10-13 15:05:10 : Annonce toujours en ligne
+2021-10-13 15:05:10 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:11 : Ping annonce https://www.olx.pt/anuncio/renault-clio-iv-1-5dci-limited-IDFTwsb.html#4516b788a5
+
+4042021-10-13 15:05:12 : Annonce toujours en ligne
+2021-10-13 15:05:12 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:13 : Ping annonce https://www.olx.pt/anuncio/audi-a4-2-0-tdi-avant-s-line-150cv-b9-IDFUp09.html#4516b788a5
+
+4102021-10-13 15:05:14 : Annonce toujours en ligne
+2021-10-13 15:05:14 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:14 : Ping annonce https://www.olx.pt/anuncio/abarth-595-cabrio-turismo-2015-IDFUFqU.html#4516b788a5
+
+4042021-10-13 15:05:16 : Annonce toujours en ligne
+2021-10-13 15:05:16 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:16 : Ping annonce https://www.olx.pt/anuncio/mercedes-benz-c220d-9g-tronic-estate-amg-line-IDFNjrW.html#1e999ca37f
+
+4102021-10-13 15:05:17 : Annonce toujours en ligne
+2021-10-13 15:05:17 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:18 : Ping annonce https://www.olx.pt/anuncio/audi-a4-avante-IDFWj9p.html#4516b788a5
+
+4042021-10-13 15:05:20 : Annonce toujours en ligne
+2021-10-13 15:05:20 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:20 : Ping annonce https://www.olx.pt/anuncio/ford-mondeo-sw-titanium-tdci-1-6-115cv-IDFWA58.html#4516b788a5
+
+4102021-10-13 15:05:21 : Annonce toujours en ligne
+2021-10-13 15:05:21 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:22 : Ping annonce https://www.olx.pt/anuncio/vendo-fiat-panda-em-bom-estado-IDFWPBZ.html#4516b788a5
+
+4042021-10-13 15:05:23 : Annonce toujours en ligne
+2021-10-13 15:05:23 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:24 : Ping annonce https://www.olx.pt/anuncio/bmw-320d-touring-modern-184cv-IDFV4c8.html#4516b788a5
+
+4042021-10-13 15:05:25 : Annonce toujours en ligne
+2021-10-13 15:05:25 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:26 : Ping annonce https://www.olx.pt/anuncio/citron-c3-1-2-puretech-feel-IDFVxM7.html#135089bbf2
+
+4042021-10-13 15:05:27 : Annonce toujours en ligne
+2021-10-13 15:05:27 : Mise a jour du statut de l'annonce
+2021-10-13 15:05:28 : Ping annonce https://www.olx.pt/anuncio/vw-passat-1-6-cc-120cv-troco-por-carrinha-mercadorias-IDFSbod.html#1e999ca37f

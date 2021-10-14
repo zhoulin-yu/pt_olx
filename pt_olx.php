@@ -71,6 +71,7 @@ function testAnnonce_api($idAnnonce)
         ]
     );
         $annonceContent = curl_exec($ch);
+        file_put_contents('annonce_content_1.json',$annonceContent);
         if (curl_errno($ch)) {
             echo 'Error:' . curl_error($ch);
         }
@@ -78,8 +79,11 @@ function testAnnonce_api($idAnnonce)
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         echo PHP_EOL;
         print_r($httpCode);
+        echo PHP_EOL;
+
+
+
         if($httpCode = 200){
-            file_put_contents('annonce.json',$annonceContent);
             return true;
         }
         if($httpCode = 410){
@@ -187,12 +191,13 @@ function downloadAnnonce($idAnnonce)
     }
     curl_close($ch);
 
-    if ($httpCode === 404) {
+    if ($httpCode == 410 || $httpCode == 404) {
         return false;
     }
     $jsonAnnonce['telephonepresent'] = 0;
     $jsonAnnonce["telephone"] = '';
-    if(isset($annonce['data']['contact']['phone']) && $annonce['data']['contact']['phone'] == 1)//check if having phone number
+    //check if having phone number
+    if(isset($annonce['data']['contact']['phone']) && $annonce['data']['contact']['phone'] == 1)
     {
         //get phone number
         try{
@@ -259,9 +264,6 @@ function downloadAnnonce($idAnnonce)
     print_r($jsonAnnonce["annee"]);
     echo (PHP_EOL);
 
-    
-    echo (">>>> Test jsonAnnonce".PHP_EOL);
-    var_dump($jsonAnnonce);
 
     $matches = array();
     $pattern = '/<span class="offer-details__name">Ano<\/span>[\n\s]+<strong class="offer-details__value">([0-9]{4})/s';
@@ -451,7 +453,7 @@ $idFord = '626734436';
 $idJeep = '631524904';
 $idx1 = '631501824';
 $idx2 = '631497768';
-testAnnonce_api('607339970');
+testAnnonce_api('631636251');
 
 
 //print_r(create_token());
