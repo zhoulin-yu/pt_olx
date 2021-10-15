@@ -71,7 +71,7 @@ function testAnnonce_api($idAnnonce)
         ]
     );
         $annonceContent = curl_exec($ch);
-        file_put_contents('annonce_content_1.json',$annonceContent);
+        file_put_contents('annonce_content_private_seller.json',$annonceContent);
         if (curl_errno($ch)) {
             echo 'Error:' . curl_error($ch);
         }
@@ -205,9 +205,6 @@ function downloadAnnonce($idAnnonce)
             if (strlen($phone) > 0) {
                 $jsonAnnonce["telephonepresent"] = 2;
                 $jsonAnnonce["telephone"] = $phone;
-                echo (">>>> Test phone number".PHP_EOL);
-                print_r($jsonAnnonce["telephone"]);
-                echo (PHP_EOL);
             }
         } catch(Exception $e) {
             throw $e;
@@ -224,9 +221,6 @@ function downloadAnnonce($idAnnonce)
     {
         $jsonAnnonce["titre"] = $annonce['data']['title'];
     }
-    echo (">>>> Test Titre".PHP_EOL);
-    print_r($jsonAnnonce["titre"]);
-    echo (PHP_EOL);
 
     // Code postal irrécupérable dans un premier temps, à récupérer via la ville
 
@@ -236,22 +230,15 @@ function downloadAnnonce($idAnnonce)
         $jsonAnnonce["ville"] = ucwords($annonce['data']['location']['region']['normalized_name']);
         
     }
-    echo (">>>> Test Ville".PHP_EOL);
-    print_r($jsonAnnonce["ville"]);
-    echo (PHP_EOL);
+
     
-    // Prix
-   
+    // Prix 
     $jsonAnnonce["prix"]= '';
     foreach($annonce['data']["params"] as $key){
         if($key['key'] == "price"){
             $jsonAnnonce["prix"]= $key['value']['value'];
         }
     }
-    echo (">>>> Test Prix".PHP_EOL);
-    print_r($jsonAnnonce["prix"]);
-    echo (PHP_EOL);
-
 
     // Année
     $jsonAnnonce["annee"]= '';
@@ -260,9 +247,6 @@ function downloadAnnonce($idAnnonce)
             $jsonAnnonce["annee"]= $key['value']['key'];
         }
     }
-    echo (">>>> Test Annee".PHP_EOL);
-    print_r($jsonAnnonce["annee"]);
-    echo (PHP_EOL);
 
 
     // Carburant
@@ -272,9 +256,7 @@ function downloadAnnonce($idAnnonce)
             $jsonAnnonce["carburant"]= $key['value']['label'];
         }
     }
-    echo (">>>> Test carburant".PHP_EOL);
-    print_r($jsonAnnonce["carburant"]);
-    echo (PHP_EOL);
+
 
     //Modele
     $jsonAnnonce["modele"]='';
@@ -284,9 +266,6 @@ function downloadAnnonce($idAnnonce)
             $jsonAnnonce["modele"]= $key['value']['label'];
         }
     }
-    echo (">>>> Test Modele".PHP_EOL);
-    print_r($jsonAnnonce["modele"]);
-    echo (PHP_EOL);
 
     //Km
     $jsonAnnonce["km"]='';
@@ -296,21 +275,8 @@ function downloadAnnonce($idAnnonce)
             $jsonAnnonce["km"]= $key['value']['key'];
         }
     }
-    echo (">>>> Test KM".PHP_EOL);
-    print_r($jsonAnnonce["km"]);
-    echo (PHP_EOL);
-
-/*
-                "key": "quilometros",
-                "name": "Quil\u00f3metros",
-                "type": "input",
-                "value": {
-                    "key": "283000",
-                    "label": "283.000 km"
-                }*/
 
     // Marque
-
     $jsonAnnonce["marque"] = '';
     $list_marque = array
     (
@@ -384,116 +350,46 @@ function downloadAnnonce($idAnnonce)
             $jsonAnnonce["marque"] = $list_marque[$cat_index];
         }       
     }
-    echo (">>>> Test Marque".PHP_EOL);
-    print_r($jsonAnnonce["marque"]);
-    echo (PHP_EOL);
-        
-    $jsonAnnonce["date_mise_ligne"] = $annonce['data']['created_time'];
-    echo (">>>> Test date_mise_ligne".PHP_EOL);
-    print_r($jsonAnnonce["date_mise_ligne"]);
-    echo (PHP_EOL);
-
-
-    
 
     // Date de mise en ligne
-    /*
-    date/ "created_time": "2021-10-12T15:36:15+01:00",*/
-    $arr_portugese_months = array(
-        "Jan" => "01",
-        "Fev" => "02",
-        "Mar" => "03",
-        "Abr" => "04",
-        "Mai" => "05",
-        "Jun" => "06",
-        "Jul" => "07",
-        "Ago" => "08",
-        "Set" => "09",
-        "Out" => "10",
-        "Nov" => "11",
-        "Dez" => "12"
-    );
-    $matches = array();
-    $pattern = '/às ([0-9]{2}):([0-9]{2}), ([0-9]{1,2}) ([^ ]+) ([0-9]{4})/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jour = str_pad($matches[3], 2, '0', STR_PAD_LEFT);
-        $mois = substr($matches[4], 0, 3);
-        $annee = $matches[5];
-        $heure = $matches[1];
-        $minute = $matches[2];
-
-        $jsonAnnonce["date_mise_ligne"] = $annee . "-" . $arr_portugese_months[$mois] . "-" . $jour . " " .
-                $heure . ":" . $minute . ":00";
-    } else {
-        $pattern = '/<span data-cy="ad-posted-at"[^>]+>([^>]+)<\/span>/s';
-        preg_match($pattern, $annonceContent, $matches);
-
-        $submatches = [];
-        $pattern = '/([0-9]{1,2}) de ([^ ]+) de ([0-9]{4})/s';
-        preg_match($pattern, $matches[1], $submatches);
-        if (isset($submatches[1])) {
-            $month = $arr_portugese_months[ucfirst(substr($submatches[2], 0, 3))];
-            $jsonAnnonce["date_mise_ligne"] = "{$submatches[3]}-{$month}-{$submatches[1]} 00:00:00";
-        } else {
-            $pattern = '/Hoje às ([0-9]{2}):([0-9]{2})/s';
-            preg_match($pattern, $matches[1], $submatches);
-            if (isset($submatches[1])) {
-                $jsonAnnonce["date_mise_ligne"] = date('Y-m-d') . " {$submatches[1]}:{$submatches[2]}:00";
-            }
-        }
+    $jsonAnnonce["date_mise_ligne"] = '';
+    if(isset($annonce['data']['created_time'])){
+        $created_time = $annonce['data']['created_time'];
+        $jsonAnnonce["date_mise_ligne"] = DateTime::createFromFormat(DateTime::ATOM, $created_time)->format('Y-m-d H:i:s');
     }
 
     // Statut pro
-    $matches = array();
     $jsonAnnonce["statut_vendeur_particulier"] = 0;
-    $pattern = '/<span class="offer-details__name">Anunciante<\/span>[\n\s]+<strong class="offer-details__value">Particular/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[0])) {
-        $jsonAnnonce["statut_vendeur_particulier"] = 1;
-    } else {
-        $pattern = '/Particular<\/p>/s';
-        preg_match($pattern, $annonceContent, $matches);
-        if (isset($matches[0])) {
+    if(isset($annonce['data']['user']['seller_type'])){
+        $seller_type = $annonce['data']['user']['seller_type'];
+        if($seller_type != "pro") {
             $jsonAnnonce["statut_vendeur_particulier"] = 1;
-        }
+        } 
     }
 
-    // User
-    $matches = array();
-    $pattern = '/<div class="quickcontact__user-name">([^<]+)<\/div>/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (!isset($matches[1])) {
-        $matches = array();
-        $pattern = '/"user":{"id":[0-9]+,"name":"([^"]+)"/s';
-        preg_match($pattern, $annonceContent, $matches);
+
+    //User name
+    $jsonAnnonce["nom"]  = "";
+    if(isset($annonce['data']['user']['name'])){
+        $jsonAnnonce["nom"] = $annonce['data']['user']['name'];
     }
-    $jsonAnnonce["nom"] = substr(trim($matches[1]), 0, 32);
 
     // Image
-    $matches = array();
-    $pattern = '/"ad_img":"([^"]+)"/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (isset($matches[1])) {
-        $jsonAnnonce["photo_url"] = $matches[1];
-    } else {
+    $jsonAnnonce["photo_url"] = '';
+    if(isset($annonce['data']['photos'][0]['link'])){
+        $photo_link = $annonce['data']['photos'][0]['link'];
         $pattern = '/https:\/\/ireland.apollo.olxcdn.com:443\/v1\/files\/[^\/]+\/image/s';
-        preg_match($pattern, $annonceContent, $matches);
+        preg_match($pattern, $photo_link, $matches);
         if (isset($matches[0])) {
             $jsonAnnonce["photo_url"] = $matches[0];
         }
     }
 
     // Description
-    $matches = array();
-    $pattern = '/<div class="clr lheight20 large" id="textContent">((.|\n)*?)<\/div>/s';
-    preg_match($pattern, $annonceContent, $matches);
-    if (!isset($matches[1])) {
-        $matches = array();
-        $pattern = '/name="description" content="([^"]+)"/s';
-        preg_match($pattern, $annonceContent, $matches);
+    $jsonAnnonce["description"] = '';
+    if(isset($annonce['data']['description'])){
+        $jsonAnnonce["description"] = str_replace('<br />','',$annonce['data']['description']);
     }
-    $jsonAnnonce["description"] = trim($matches[1]);
 
     $toReturn = json_encode($jsonAnnonce, JSON_HEX_AMP | JSON_UNESCAPED_UNICODE);
 
@@ -501,7 +397,7 @@ function downloadAnnonce($idAnnonce)
         PrintDebug::display(json_last_error_msg(), true);
         return false;
     }
-
+    print_r($jsonAnnonce);
     return $toReturn;
 }
 $u0 = "https://www.olx.pt/d/anuncio/jeep-wrangler-2-8-crd-atx-sahara-IDGJOty.html";//web normal
@@ -517,7 +413,7 @@ $idFord = '626734436';
 $idJeep = '631524904';
 $idx1 = '631501824';
 $idx2 = '631497768';
-downloadAnnonce('629187657');
+downloadAnnonce('631524904');
 
 
 //print_r(create_token());

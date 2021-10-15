@@ -1,0 +1,241 @@
+{
+    "data": {
+        "id": 631706815,
+        "url": "https://www.olx.pt/d/anuncio/renault-megane-1-5-dci-IDGKzNB.html",
+        "title": "Renault Megane 1.5 DCI",
+        "last_refresh_time": "2021-10-15T08:54:42+01:00",
+        "created_time": "2021-10-15T08:54:02+01:00",
+        "description": "Vendo Renault Megane 1.5 DCI Coup\u00e9, em excelente estado, bem conservado, conta com 264000km, revis\u00f5es efectuadas sempre a tempo e horas com os materiais indicados para a viatura.\u003Cbr /\u003E\nTem dire\u00e7\u00e3o assistida, vidros el\u00e9tricos autom\u00e1ticos, ABS, jantes especiais, GPS, sistema de m\u00e3os livres, Cruise Control, limitador de velocidade, sensores de luz e chuva, far\u00f3is de nevoeiro, 2 chaves (cart\u00f5es), ar condicionado carregado, r\u00e1dio leitor de CD/MP3, manuais do ve\u00edculo, etc.\u003Cbr /\u003E\n\u003Cbr /\u003E\n\u00c9 o meu carro do dia a dia, estou a vender o mesmo porque necessito de um carro maior e de 5 portas devido a aumento familiar.",
+        "promotion": {
+            "highlighted": false,
+            "urgent": false,
+            "top_ad": false,
+            "options": [],
+            "b2c_ad_page": false,
+            "premium_ad_page": false
+        },
+        "params": [
+            {
+                "key": "modelo",
+                "name": "Modelo",
+                "type": "select",
+                "value": {
+                    "key": "megane",
+                    "label": "M\u00e9gane"
+                }
+            },
+            {
+                "key": "condicao",
+                "name": "Condi\u00e7\u00e3o",
+                "type": "select",
+                "value": {
+                    "key": "usado",
+                    "label": "Usado"
+                }
+            },
+            {
+                "key": "year",
+                "name": "Ano",
+                "type": "input",
+                "value": {
+                    "key": "2009",
+                    "label": "2009 "
+                }
+            },
+            {
+                "key": "quilometros",
+                "name": "Quil\u00f3metros",
+                "type": "input",
+                "value": {
+                    "key": "264000",
+                    "label": "264.000 km"
+                }
+            },
+            {
+                "key": "portas",
+                "name": "Portas",
+                "type": "select",
+                "value": {
+                    "key": "1-3",
+                    "label": "1-3"
+                }
+            },
+            {
+                "key": "combustivel",
+                "name": "Combust\u00edvel",
+                "type": "select",
+                "value": {
+                    "key": "diesel",
+                    "label": "Diesel"
+                }
+            },
+            {
+                "key": "price",
+                "name": "Pre\u00e7o",
+                "type": "price",
+                "value": {
+                    "value": 5000,
+                    "type": "arranged",
+                    "arranged": true,
+                    "budget": false,
+                    "currency": "EUR",
+                    "negotiable": true,
+                    "converted_value": null,
+                    "previous_value": null,
+                    "converted_previous_value": null,
+                    "converted_currency": null
+                }
+            }
+        ],
+        "key_params": [],
+        "business": false,
+        "user": {
+            "id": 8487531,
+            "created": "2012-09-08T12:37:25+01:00",
+            "other_ads_enabled": true,
+            "name": "David Lopes",
+            "logo": null,
+            "logo_ad_page": null,
+            "social_network_account_type": "facebook",
+            "photo": "https://img-resizer.prd.01.eu-west-1.eu.olx.org/img-eu-olxpt-production/926360366_1_100x100.jpg",
+            "banner_mobile": "",
+            "banner_desktop": "",
+            "company_name": "",
+            "about": "",
+            "b2c_business_page": false,
+            "is_online": false,
+            "last_seen": "2021-10-15T08:54:02+01:00",
+            "seller_type": "grey"
+        },
+        "status": "active",
+        "contact": {
+            "name": "David Lopes",
+            "phone": true,
+            "chat": true,
+            "negotiation": true,
+            "courier": false
+        },
+        "map": {
+            "zoom": 10,
+            "lat": 39.83995,
+            "lon": -7.49341,
+            "radius": 1,
+            "show_detailed": false
+        },
+        "location": {
+            "city": {
+                "id": 5244928,
+                "name": "Castelo Branco",
+                "normalized_name": "castelobranco-castelobranco"
+            },
+            "region": {
+                "id": 5,
+                "name": "Castelo Branco",
+                "normalized_name": "castelobranco"
+            }
+        },
+        "photos": [
+            {
+                "id": 899774651,
+                "filename": "tptlctr8rsk7-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/tptlctr8rsk7-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774652,
+                "filename": "pcq20225970b1-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/pcq20225970b1-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774653,
+                "filename": "ghpswbcz6g1k-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ghpswbcz6g1k-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774654,
+                "filename": "c03k79sznto52-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/c03k79sznto52-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774655,
+                "filename": "vbmhaoq2cwaz2-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/vbmhaoq2cwaz2-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774656,
+                "filename": "11rcyuizyxv43-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/11rcyuizyxv43-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774657,
+                "filename": "0fw5svdwl7z93-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/0fw5svdwl7z93-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774658,
+                "filename": "jwmoiiam6ocg1-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jwmoiiam6ocg1-PT/image;s={width}x{height}"
+            },
+            {
+                "id": 899774659,
+                "filename": "rdyp5l5j6rj1-PT",
+                "rotation": 0,
+                "width": 2000,
+                "height": 1500,
+                "link": "https://ireland.apollo.olxcdn.com:443/v1/files/rdyp5l5j6rj1-PT/image;s={width}x{height}"
+            }
+        ],
+        "partner": null,
+        "category": {
+            "id": 603,
+            "type": "automotive"
+        },
+        "delivery": {
+            "rock": {
+                "offer_id": null,
+                "active": false,
+                "mode": null
+            }
+        },
+        "safedeal": {
+            "weight": 0,
+            "weight_grams": 0,
+            "status": "unactive",
+            "safedeal_blocked": false,
+            "allowed_quantity": []
+        },
+        "shop": {
+            "subdomain": null
+        },
+        "offer_type": "offer",
+        "protect_phone": true
+    },
+    "links": {
+        "self": {
+            "href": "https://www.olx.pt/api/v1/offers/631706815"
+        }
+    }
+}
