@@ -360,11 +360,11 @@ function downloadAnnonce($idAnnonce)
 
     // Statut pro
     $jsonAnnonce["statut_vendeur_particulier"] = 0;
-    if(isset($annonce['data']['user']['seller_type'])){
-        $seller_type = $annonce['data']['user']['seller_type'];
-        if($seller_type != "pro") {
+    if (isset($annonce['data']['business'])) {
+        $seller_type = $annonce['data']['business'];
+        if ($seller_type == false) {
             $jsonAnnonce["statut_vendeur_particulier"] = 1;
-        } 
+        }
     }
 
 
@@ -413,7 +413,7 @@ $idFord = '626734436';
 $idJeep = '631524904';
 $idx1 = '631501824';
 $idx2 = '631497768';
-downloadAnnonce('631524904');
+downloadAnnonce('535211627');
 
 
 //print_r(create_token());
