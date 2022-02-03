@@ -1,15 +1,19 @@
-https://www.olx.pt/d/anuncio/vende-se-golf-1999-IDGJ6nT.html#d447c7e096
-
-https://www.olx.pt/d/anuncio/ford-focus-1800-cc-de-2003-usado-IDGEAn6.html#f71c5ae2ec
-
-
-document.querySelector("#root > div.css-50cyfj > div > div > div.css-pzstfv > a")
-
-<a href="/" type="button" variant="base" class="css-1equ2fo-BaseStyles">Ir para a página principal</a>
+"url" => "https://www.autoscout24.be/fr/offres/swm-gran-milano-440-etat-neuf-essence-bronze-afee4d8f-5b17-4341-9284-0ab69941eeee?source=list_searchresults",
+                        "id" => "63639917",
+                        "cible" => "be_auto",
+                        "idannonce" => "afee4d8f-5b17-4341-9284-0ab69941eeee")
 
 
 
-css-thjz9r // loading logo X 
-css-5hzoub // loading logo O  
+https://www.autoscout24.be/fr/offres/renault-grand-scenic-1-6-dci-energy-initiale-paris-edc-diesel-gris-923da129-bdc4-4457-a56a-c327bf17ff92
 
-swiper-container
+
+
+"url" => "https://www.autoscout24.fr/offres/mercedes-benz-b-200-classe-cdi-blueefficiency-sport-diesel-blanc-cd2eedb6-1b24-4e5e-b0f6-c58aeadc90f0?source=list_searchresults",
+                        "id" => "62410531",
+                        "cible" => "fr_autoscout",
+                        "idannonce" => "cd2eedb6-1b24-4e5e-b0f6-c58aeadc90f0"
+
+
+
+#li-e96a7bac-cd2d-4e1d-8987-cbb4ae434d3d > div.cldt-summary-headline > div.cldt-summary-titles > a
