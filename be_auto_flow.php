@@ -166,9 +166,8 @@ function downloadFlow($url)
         }
     }
 
-
-
     var_dump($jsonAds);
+
     return json_encode(
         $jsonAds,
         JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE
@@ -180,3 +179,4 @@ $url_car = "https://www.autoscout24.be/fr/lst/?sort=age&desc=1&custtype=P&ustate
 $url_moto = "https://www.autoscout24.be/fr/lst-moto/?sort=age&desc=1&custtype=P&ustate=N%2CU&size=20&page=5&cy=B&atype=B&fc=1&qry=&recommended_sorting_based_id=79925404-bc82-4363-88be-30a4c2898bd9&";
 
 downloadFlow($url_moto);
+var_dump($res);

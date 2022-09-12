@@ -1,15 +1,19 @@
 <?php
 
+use libphonenumber\NumberParseException;
+use libphonenumber\PhoneNumberFormat;
+use libphonenumber\PhoneNumberUtil;
+
 require 'vendor/autoload.php';
 
 function writeContent($str)
 {
-    $open = fopen("web_content_ch.html", "a");
+    $open = fopen("petitesannonce.html", "w");
     fwrite($open, $str);
     fclose($open);
 }
 
-$url = "https://www.autoscout24.ch/fr/d/seat-ateca-suvtout-terrain-2021-occasion?backurl=%2F&topcar=true&vehid=9260697";
+$url = "https://www.petitesannonces.ch/a/6217742";
 
 $ch = curl_init();
 curl_setopt_array(
@@ -21,14 +25,37 @@ curl_setopt_array(
     ]
 );
 $httpBody = curl_exec($ch);
+//var_dump($httpBody);
 
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 echo "http code is " . $httpCode . PHP_EOL;
 curl_close($ch);
 
-writeContent($httpBody);
+//$httpBody = file_get_contents("petitesannonce.html");
 
-$doc = new DOMDocument();
+
+// Téléphone
+$matches = [];
+$pattern = '/innerHTML=\'([+0-9]+)\'/s';
+preg_match($pattern, $httpBody, $matches);
+var_dump($matches);
+$jsonAd['telephonepresent'] = 0;
+if (isset($matches[1])) {
+    $jsonAd['telephone'] = strrev($matches[1]);
+    $jsonAd['telephonepresent'] = 2;
+}
+
+var_dump($jsonAd);
+/*
+<tr>
+<td class="small">T�l�phone:</td>
+<td><span id="pi83690">032... </span><a href="#" title="Voir le num�ro"
+        onClick="pi83690.innerHTML='6117674230'.split('').reverse().join('');this.style.display='none';return false;">Voir
+        le num�ro</a></td>
+</tr>
+*/
+
+/* $doc = new DOMDocument();
 libxml_use_internal_errors(true);
 $doc->loadHTML($httpBody); // load httpString to create an DOMDocument
 libxml_use_internal_errors(false);
@@ -88,7 +115,7 @@ if (isset($data_array["props"]["pageProps"]["listingDetails"]["images"][0])) {
     $res['photo_url'] = $data_array["props"]["pageProps"]["listingDetails"]["images"][0];
 }
 
-var_dump($res);
+var_dump($res); */
 
 /*
 

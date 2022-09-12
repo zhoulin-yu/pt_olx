@@ -1,0 +1,7 @@
+/test/
+composer.lock
+cookies
+/plmn.txt
+nbproject
+vendor
+webcontent

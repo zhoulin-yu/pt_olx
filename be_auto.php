@@ -85,7 +85,7 @@ function downloadFlow($url)
 
 function downloadAnnonce($url)
 {
-    /* $ch = curl_init();
+    $ch = curl_init();
     curl_setopt_array(
         $ch,
         [
@@ -100,6 +100,7 @@ function downloadAnnonce($url)
         PrintDebug::display(curl_error($ch), $this->debug_mode);
     }
 
+    echo "test>>>> httpcode is " . $httpCode . PHP_EOL;
     writelog($httpBody);
     curl_close($ch);
 
@@ -110,11 +111,12 @@ function downloadAnnonce($url)
     // Si on est bloqué : reconnexion requise
     if (strpos($httpBody, 'No hay conexi') !== false) {
         throw new \Exception('Reconnection requise');
-    } */
+    }
 
-    $httpBody = file_get_contents("web_content.html");
+    // $httpBody = file_get_contents("web_content.html");
     $doc = new DOMDocument();
-    $doc->loadHTMLFile("web_content.html");
+    //$doc->loadHTMLFile("web_content.html");
+    $doc->loadHTMLFile($httpBody);
 
     #__next > div > main > div.css-o5c6q6 > div.css-11y8sgd > div.css-12ipdh9 > div.css-1m1xare > h1 > div.css-11siofd.errr7t01 > span.css-1mhe8d.errr7t00
     //*[@id="__next"]/div/main/div[5]/div[2]/div[1]/div[2]/h1/div[1]/span[2]
@@ -329,7 +331,7 @@ function contactPostalCode($postalCode)
 }
 
 
-$u0 = "https://www.autoscout24.fr/offres/mercedes-benz-b-200-classe-cdi-blueefficiency-sport-diesel-blanc-cd2eedb6-1b24-4e5e-b0f6-c58aeadc90f0?source=list_searchresults"; //web normal
+$u0 = "https://www.autoscout24.ch/fr/d/seat-ateca-suvtout-terrain-2021-occasion?backurl=%2F&topcar=true&vehid=9260697"; //web normal
 
 $res = downloadAnnonce($u0);
 print_r($res);

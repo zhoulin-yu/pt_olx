@@ -1,5 +1,7 @@
 {
     "require": {
+        "php-webdriver/webdriver": "^1.8",
+        "giggsey/libphonenumber-for-php": "*",
         "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
@@ -10,5 +12,4 @@
             "debug.class.php"
         ]
     }
-
 }
